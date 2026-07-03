@@ -69,7 +69,10 @@ export const images = {
   meeting: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=2000&q=85",
   bar: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1800&q=85",
   chef: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1800&q=85",
-  courtyard: "/front-desk-warm.png",
+  courtyardRoom: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=85",
+  familySuite: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85",
+  courtyardDining: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1800&q=85",
+  frontDesk: "/front-desk-warm.png",
   reception: "/modern-reception.png",
   attraction: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2000&q=85"
 };
@@ -83,7 +86,7 @@ export const rooms = [
     size: "780 sq ft",
     details: "Hand-carved screens, a marble bath, a private dining alcove, and quiet butler service create a residence-like stay.",
     hiDetails: "हस्तनिर्मित जालियां, मार्बल बाथ, निजी डाइनिंग और शांत बटलर सेवा इसे राजसी निवास जैसा बनाते हैं।",
-    amenities: ["Butler service", "Marble bath", "City palace view", "Evening turndown"]
+    amenities: ["Butler service", "Marble bath", "City view", "Evening turndown"]
   },
   {
     title: "Anand Club Room",
@@ -99,9 +102,9 @@ export const rooms = [
     title: "Royal Courtyard Room",
     hi: "रॉयल कोर्टयार्ड कमरा",
     price: "₹22,000",
-    image: images.courtyard,
+    image: images.courtyardRoom,
     size: "510 sq ft",
-    details: "Warm wood, brass lamps, garden-facing windows, and a restful palette inspired by old Rajasthan havelis.",
+    details: "Warm wood, brass lamps, garden-facing windows, and a restful palette inspired by refined Indian havelis.",
     hiDetails: "लकड़ी, ब्रास लैंप, गार्डन व्यू और राजस्थानी हवेली से प्रेरित रंगों वाला शांत कमरा।",
     amenities: ["Courtyard view", "Luxury linen", "Mini bar", "Yoga mat"]
   }
@@ -161,7 +164,7 @@ export const diningVenues = [
   {
     title: "Private Courtyard Dining",
     hi: "निजी कोर्टयार्ड डाइनिंग",
-    image: images.courtyard,
+    image: images.courtyardDining,
     text: "A romantic private dining setup for anniversaries, proposals, family celebrations, and intimate dinners under soft courtyard lighting.",
     timing: "On request",
     highlights: ["Private setup", "Celebration menus", "Candlelight dinner"]
@@ -171,7 +174,7 @@ export const diningVenues = [
 export const awards = [
   "Best New Luxury Heritage Hotel 2026",
   "India Design Excellence Shortlist",
-  "Top Wedding Venue in Rajasthan",
+  "Top Wedding Venue in Greater Noida",
   "Guest Choice 4.9/5"
 ];
 
@@ -202,7 +205,7 @@ export const gallery = [
   images.banquet,
   images.meeting,
   images.bar,
-  images.courtyard
+  images.frontDesk
 ];
 
 export const galleryCategories = [
@@ -213,23 +216,23 @@ export const galleryCategories = [
 ];
 
 export const attractions = [
-  { title: "City Palace", distance: "12 min", icon: Landmark, text: "Private guide access to royal courtyards, museums, and lake viewpoints." },
-  { title: "Lake Pichola Cruise", distance: "15 min", icon: Waves, text: "Sunset boat experience with refreshments and hosted transfers." },
-  { title: "Aravalli Trail", distance: "35 min", icon: Mountain, text: "Gentle guided walks, photography stops, and picnic breakfast." },
-  { title: "Airport", distance: "32 min", icon: Plane, text: "Luxury sedan, premium SUV, and group transfers on request." }
+  { title: "India Expo Mart", distance: "10 min", icon: Landmark, text: "Hosted transfers for exhibitions, conferences, trade shows, and business events." },
+  { title: "Pari Chowk", distance: "12 min", icon: Waves, text: "Quick access to Greater Noida's central dining, shopping, and city connections." },
+  { title: "Buddh International Circuit", distance: "30 min", icon: Mountain, text: "Race-day transfers, packed refreshments, and hosted group movement on request." },
+  { title: "Noida International Airport", distance: "45 min", icon: Plane, text: "Luxury sedan, premium SUV, and group transfers on request." }
 ];
 
 export const faqs = [
-  { q: "Is Hotel B Anand a luxury hotel in Udaipur?", hiQ: "क्या होटल बी आनंद उदयपुर में लक्ज़री होटल है?", a: "Yes. Hotel B Anand is designed as a premium Indian luxury hotel with suites, villas, fine dining, spa, weddings, banquet halls, meeting spaces, concierge, and private transfers.", hiA: "हाँ। होटल बी आनंद सुइट्स, विला, शाही भोजन, स्पा, विवाह, बैंक्वेट, मीटिंग स्पेस और निजी ट्रांसफर वाला प्रीमियम भारतीय लक्ज़री होटल है।" },
+  { q: "Is Hotel B Anand a luxury hotel in Greater Noida?", hiQ: "क्या होटल बी आनंद ग्रेटर नोएडा में लक्ज़री होटल है?", a: "Yes. Hotel B Anand is designed as a premium Indian luxury hotel with suites, villas, fine dining, spa, weddings, banquet halls, meeting spaces, concierge, and private transfers.", hiA: "हाँ। होटल बी आनंद सुइट्स, विला, शाही भोजन, स्पा, विवाह, बैंक्वेट, मीटिंग स्पेस और निजी ट्रांसफर वाला प्रीमियम भारतीय लक्ज़री होटल है।" },
   { q: "Can I book weddings and banquets?", hiQ: "क्या विवाह और बैंक्वेट बुक हो सकते हैं?", a: "Yes. The hotel hosts destination weddings, receptions, engagements, corporate galas, and private celebrations with planning support.", hiA: "हाँ। होटल डेस्टिनेशन वेडिंग, रिसेप्शन, सगाई, कॉर्पोरेट गाला और निजी समारोहों की योजना में सहयोग करता है।" },
   { q: "Are rooms and villas available with breakfast?", hiQ: "क्या कमरों और विला में नाश्ता शामिल है?", a: "Most direct booking packages include breakfast. Seasonal offers may include spa credit, airport transfer, dinner, or late checkout.", hiA: "अधिकांश डायरेक्ट बुकिंग पैकेज में नाश्ता शामिल है। मौसमी ऑफर में स्पा क्रेडिट, एयरपोर्ट ट्रांसफर, डिनर या लेट चेकआउट भी हो सकता है।" },
   { q: "Does the hotel support corporate meetings?", hiQ: "क्या होटल कॉर्पोरेट मीटिंग्स के लिए उपयुक्त है?", a: "Yes. Boardrooms, hybrid-ready meeting halls, breakout lawns, high-speed Wi-Fi, and executive dining are available.", hiA: "हाँ। बोर्डरूम, हाइब्रिड मीटिंग हॉल, ब्रेकआउट लॉन, हाई-स्पीड वाई-फाई और एग्जीक्यूटिव डाइनिंग उपलब्ध हैं।" }
 ];
 
 export const blogPosts = [
-  { title: "How to Plan a Royal Udaipur Wedding", slug: "royal-udaipur-wedding", tag: "Wedding", image: images.wedding, text: "A practical guide to mandap timing, guest flow, menus, rooms, and photography light." },
+  { title: "How to Plan a Royal Greater Noida Wedding", slug: "royal-greater-noida-wedding", tag: "Wedding", image: images.wedding, text: "A practical guide to mandap timing, guest flow, menus, rooms, and photography light." },
   { title: "The New Language of Indian Luxury Hotels", slug: "indian-luxury-hotels", tag: "Hospitality", image: images.lobby, text: "Why modern guests value quiet design, local craft, wellness, and intuitive service." },
-  { title: "A Two-Day Wellness Stay in Rajasthan", slug: "wellness-stay-rajasthan", tag: "Wellness", image: images.spa, text: "Yoga, Ayurvedic therapies, sattvic dining, and slow mornings in a luxury setting." }
+  { title: "A Two-Day Wellness Stay in Greater Noida", slug: "wellness-stay-greater-noida", tag: "Wellness", image: images.spa, text: "Yoga, Ayurvedic therapies, sattvic dining, and slow mornings in a luxury setting." }
 ];
 
 export const pageContent = {
@@ -243,7 +246,7 @@ export const pageContent = {
   meetings: { title: "Meetings with Resort-Level Ease", hi: "रिसॉर्ट जैसी सहजता के साथ मीटिंग्स", eyebrow: "Meetings", image: images.meeting, intro: "A refined corporate address for board meetings, leadership retreats, investor sessions, and hybrid conferences.", points: ["Boardrooms", "Hybrid AV", "Breakout lawns", "Executive menus", "Dedicated event manager"] },
   offers: { title: "Luxury Offers & Packages", hi: "लक्ज़री ऑफर और पैकेज", eyebrow: "Offers", image: images.pool, intro: "Seasonal stay offers for wellness, weddings, weekends, family breaks, and corporate retreats.", points: ["Direct booking benefits", "Breakfast packages", "Spa credits", "Airport transfers", "Flexible upgrades"] },
   experiences: { title: "Curated Luxury Experiences", hi: "विशेष लक्ज़री अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "Private journeys through craft, cuisine, heritage, lakes, wellness, and celebration.", points: ["Lake cruises", "Craft walks", "Chef markets", "Temple mornings", "Photography tours"] },
-  "nearby-attractions": { title: "Nearby Attractions", hi: "नज़दीकी आकर्षण", eyebrow: "Location", image: images.attraction, intro: "Explore Udaipur with private transfers, thoughtful timings, and hosted experiences shaped around comfort.", points: ["City Palace", "Lake Pichola", "Aravalli trails", "Craft bazaars", "Airport transfers"] },
+  "nearby-attractions": { title: "Nearby Attractions", hi: "नज़दीकी आकर्षण", eyebrow: "Location", image: images.attraction, intro: "Explore Greater Noida with private transfers, thoughtful timings, and hosted experiences shaped around comfort.", points: ["India Expo Mart", "Pari Chowk", "Buddh International Circuit", "Business districts", "Airport transfers"] },
   faq: { title: "Frequently Asked Questions", hi: "अक्सर पूछे जाने वाले प्रश्न", eyebrow: "FAQ", image: images.lobby, intro: "Helpful answers for rooms, weddings, dining, corporate events, transfers, and direct booking.", points: ["Booking", "Weddings", "Rooms", "Dining", "Meetings"] },
   contact: { title: "Reserve Your Stay", hi: "अपना प्रवास बुक करें", eyebrow: "Contact", image: images.hero, intro: "Speak with our reservations desk for stays, weddings, villas, events, dining, spa, and curated itineraries.", points: [hotel.phone, hotel.email, hotel.address, "WhatsApp concierge", "Google Maps ready"] },
   "book-now": { title: "Book Your Stay", hi: "अपना प्रवास बुक करें", eyebrow: "Reservations", image: images.suite, intro: "Choose dates, guests, rooms, preferences, and concierge requests. The form is ready for booking engine and payment integration.", points: ["Availability ready", "Payment ready", "Room preferences", "WhatsApp support", "Secure enquiry flow"] }

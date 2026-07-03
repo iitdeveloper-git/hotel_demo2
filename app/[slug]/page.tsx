@@ -99,7 +99,7 @@ const roomShowcase = [
   { title: "Executive Deluxe", tag: "Luxury Room", price: "₹18,500", rating: "5.0", image: "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1800&q=85", beds: "2 Bed", baths: "2 Bath", size: "520 sqft" },
   { title: "The Prestige Room", tag: "Luxury Room", price: "₹21,000", rating: "5.0", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85", beds: "1 Bed", baths: "1 Bath", size: "450 sqft" },
   { title: "Royal Suite", tag: "Luxury Suite", price: "₹38,000", rating: "5.0", image: images.villa, beds: "4 Bed", baths: "3 Bath", size: "825 sqft" },
-  { title: "Family Suites", tag: "Luxury Suite", price: "₹42,000", rating: "5.0", image: images.courtyard, beds: "5 Bed", baths: "4 Bath", size: "950 sqft" }
+  { title: "Family Suites", tag: "Luxury Suite", price: "₹42,000", rating: "5.0", image: images.familySuite, beds: "5 Bed", baths: "4 Bath", size: "950 sqft" }
 ];
 
 function RoomsSuitesShowcase() {
