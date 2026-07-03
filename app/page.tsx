@@ -33,10 +33,10 @@ export default function HomePage() {
             <div className="mb-8 grid grid-cols-12 gap-4">
               <div className="col-span-12">
                 <p className="eyebrow">Luxury Rooms</p>
-                <h2 className="mt-4 heading-lg text-green">Elegant rooms for a peaceful stay</h2>
+                <h2 className="mt-4 heading-lg text-green">Rooms with warm light, soft beds, and quiet comfort</h2>
                 <p className="mt-2 font-devanagari text-lg text-gold">लक्ज़री कमरे</p>
                 <p className="mt-4 max-w-none text-base leading-7 text-charcoal/70">
-                  Relax in spacious rooms and suites with soft bedding, refined interiors, modern amenities, warm lighting, and thoughtful service throughout your stay.
+                  The room photos show calm bedrooms, clean linen, wooden details, practical amenities, and a stay experience made for rest.
                 </p>
               </div>
             </div>
@@ -48,7 +48,7 @@ export default function HomePage() {
       <section className="section-y bg-white">
         <div className="luxury-container grid gap-10 lg:grid-cols-[.9fr_1.1fr] lg:items-center">
           <Reveal>
-            <SectionHeader eyebrow="Luxury Villas" title="Private villas for families, wedding hosts, and long stays" hindi="निजी लक्ज़री विला" text="Pool villas combine residential privacy with hotel-level service, making them ideal for celebrations and discreet leisure." />
+            <SectionHeader eyebrow="Luxury Villas" title="Poolside and suite-style private stays" hindi="निजी लक्ज़री विला" text="Our villa collection focuses on pool views, plush bedrooms, private service, and relaxed space for families or celebration guests." />
           </Reveal>
           <div className="grid gap-5 md:grid-cols-2">
             {villas.map((villa, index) => <EditorialCard key={villa.title} item={villa} href="/luxury-villas" />)}
@@ -58,7 +58,7 @@ export default function HomePage() {
 
       <section className="section-y bg-green text-white">
         <div className="luxury-container">
-          <SectionHeader eyebrow="Signature Experiences" title="Memorable moments for every guest" hindi="विशेष अनुभव" text="Enjoy fine dining, wellness rituals, celebrations, meetings, and curated local experiences planned with comfort, care, and warm hospitality." />
+          <SectionHeader eyebrow="Signature Experiences" title="Experiences shown exactly as guests use them" hindi="विशेष अनुभव" text="Dining rooms, spa areas, wedding setups, banquet halls, meeting rooms, and local travel support are presented with clear, guest-friendly details." />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {experiences.map((item, index) => (
               <Reveal key={item.title} delay={index * 0.04}>
@@ -88,7 +88,7 @@ export default function HomePage() {
             ))}
           </div>
           <Reveal>
-            <SectionHeader eyebrow="Fine Dining" title="Royal recipes, modern plating, candlelit rhythm" hindi="शाही भोजन" text="Signature dining includes regional thalis, chef's table evenings, vegetarian tasting menus, terrace cocktails, and private celebration dinners." />
+            <SectionHeader eyebrow="Fine Dining" title="Restaurant dining and Indian thali service" hindi="शाही भोजन" text="The dining experience includes a polished restaurant setting, fresh Indian thalis, comfortable table service, chef specials, and private meal requests." />
             <div className="grid grid-cols-2 gap-3">
               {["Royal Thali", "Chef Table", "Private Dining", "Cocktail Bar"].map((item) => <span key={item} className="rounded-full bg-white px-5 py-4 text-center font-bold text-green shadow-soft">{item}</span>)}
             </div>

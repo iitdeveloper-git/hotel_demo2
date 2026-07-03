@@ -84,9 +84,9 @@ export const rooms = [
     price: "₹38,000",
     image: images.suite,
     size: "780 sq ft",
-    details: "Hand-carved screens, a marble bath, a private dining alcove, and quiet butler service create a residence-like stay.",
+    details: "A spacious suite with a king bed, soft layered linen, warm bedside lighting, a calm seating corner, and polished hotel comfort.",
     hiDetails: "हस्तनिर्मित जालियां, मार्बल बाथ, निजी डाइनिंग और शांत बटलर सेवा इसे राजसी निवास जैसा बनाते हैं।",
-    amenities: ["Butler service", "Marble bath", "City view", "Evening turndown"]
+    amenities: ["King bed", "Soft linen", "Warm lighting", "Evening turndown"]
   },
   {
     title: "Anand Club Room",
@@ -94,9 +94,9 @@ export const rooms = [
     price: "₹18,500",
     image: "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1800&q=85",
     size: "420 sq ft",
-    details: "A polished room for calm business trips and short leisure stays, with club lounge access and a deep work desk.",
+    details: "A bright modern room with clean bedding, soft curtains, practical storage, and a quiet setting for short business or leisure stays.",
     hiDetails: "क्लब लाउंज, आरामदायक कार्य डेस्क और शांत वातावरण के साथ बिजनेस और अवकाश दोनों के लिए आदर्श।",
-    amenities: ["Club lounge", "Rain shower", "Smart controls", "High speed Wi-Fi"]
+    amenities: ["Modern room", "Rain shower", "Work corner", "High speed Wi-Fi"]
   },
   {
     title: "Royal Courtyard Room",
@@ -104,9 +104,9 @@ export const rooms = [
     price: "₹22,000",
     image: images.courtyardRoom,
     size: "510 sq ft",
-    details: "Warm wood, brass lamps, garden-facing windows, and a restful palette inspired by refined Indian havelis.",
+    details: "A restful room with warm wood tones, generous natural light, soft furnishings, and a relaxed lounge-like feeling.",
     hiDetails: "लकड़ी, ब्रास लैंप, गार्डन व्यू और राजस्थानी हवेली से प्रेरित रंगों वाला शांत कमरा।",
-    amenities: ["Courtyard view", "Luxury linen", "Mini bar", "Yoga mat"]
+    amenities: ["Window seating", "Luxury linen", "Mini bar", "Yoga mat"]
   }
 ];
 
@@ -114,26 +114,26 @@ export const villas = [
   {
     title: "Raj Mahal Pool Villa",
     hi: "राज महल पूल विला",
-    image: images.villa,
+    image: images.pool,
     price: "₹92,000",
-    text: "A private pool, two bedrooms, hosted dining, and a sunken courtyard for families, dignitaries, and wedding hosts."
+    text: "A poolside private stay with open resort views, outdoor lounging, personal service, and space for families or celebration hosts."
   },
   {
     title: "Champagne Garden Villa",
     hi: "शैम्पेन गार्डन विला",
-    image: images.pool,
+    image: images.villa,
     price: "₹74,000",
-    text: "A serene indoor-outdoor villa with a garden deck, spa bath, and chef-curated breakfast served in privacy."
+    text: "A quiet villa-style suite with a plush bedroom, warm lighting, refined furniture, and private breakfast service on request."
   }
 ];
 
 export const experiences = [
-  { title: "Fine Dining", hi: "शाही भोजन", icon: Utensils, image: images.dining, text: "Regional Indian recipes, global technique, and candlelit service across signature restaurants." },
-  { title: "Spa & Wellness", hi: "आराम एवं वेलनेस", icon: Sparkles, image: images.spa, text: "Ayurvedic rituals, sound healing, yoga, steam, and wellness consultations." },
-  { title: "Wedding Destination", hi: "शाही विवाह स्थल", icon: Heart, image: images.wedding, text: "Palace-inspired ceremonies, floral ateliers, bespoke menus, and guest logistics." },
-  { title: "Banquet Halls", hi: "बैंक्वेट हॉल", icon: PartyPopper, image: images.banquet, text: "Grand ballrooms and intimate salons for birthdays, engagements, and luxury launches." },
-  { title: "Meetings", hi: "मीटिंग्स", icon: BriefcaseBusiness, image: images.meeting, text: "Hybrid-ready boardrooms with discreet service, executive menus, and breakout gardens." },
-  { title: "Curated Journeys", hi: "विशेष अनुभव", icon: Landmark, image: images.attraction, text: "Private city walks, lake cruises, craft visits, and chef-led market mornings." }
+  { title: "Fine Dining", hi: "शाही भोजन", icon: Utensils, image: images.dining, text: "A refined restaurant setting for breakfast, family dinners, chef specials, and candlelit evening meals." },
+  { title: "Spa & Wellness", hi: "आराम एवं वेलनेस", icon: Sparkles, image: images.spa, text: "A calm wellness space for massage therapies, steam, aromatherapy, and slow recovery rituals." },
+  { title: "Wedding Destination", hi: "शाही विवाह स्थल", icon: Heart, image: images.wedding, text: "Elegant wedding decor, floral settings, reception styling, and guest movement planned with care." },
+  { title: "Banquet Halls", hi: "बैंक्वेट हॉल", icon: PartyPopper, image: images.banquet, text: "Large event halls arranged for receptions, birthdays, engagements, launches, and formal dinners." },
+  { title: "Meetings", hi: "मीटिंग्स", icon: BriefcaseBusiness, image: images.meeting, text: "Conference-style meeting rooms with seating plans, presentation support, and attentive service." },
+  { title: "Curated Journeys", hi: "विशेष अनुभव", icon: Landmark, image: images.attraction, text: "Comfortable Greater Noida visits, business transfers, local guidance, and nearby attraction planning." }
 ];
 
 export const diningVenues = [
@@ -141,7 +141,7 @@ export const diningVenues = [
     title: "Anand Royal Thali",
     hi: "आनंद रॉयल थाली",
     image: images.thali,
-    text: "A refined Indian dining room serving Rajasthani, Gujarati, and North Indian thalis with seasonal sweets, fresh breads, and warm table service.",
+    text: "A colourful Indian thali experience with fresh breads, seasonal vegetables, dal, rice, sweets, chutneys, and warm family-style service.",
     timing: "Lunch 12:30 PM - 3:30 PM",
     highlights: ["Royal thali", "Vegetarian options", "Family dining"]
   },
@@ -149,7 +149,7 @@ export const diningVenues = [
     title: "Sheesh Mahal Restaurant",
     hi: "शीश महल रेस्टोरेंट",
     image: images.dining,
-    text: "An elegant all-day restaurant for breakfast, dinner buffets, chef specials, and candlelit a la carte meals inspired by Indian hospitality.",
+    text: "A polished restaurant space for breakfast, lunch, dinner buffets, chef specials, and comfortable all-day hotel dining.",
     timing: "7:00 AM - 11:00 PM",
     highlights: ["Breakfast buffet", "A la carte", "Chef specials"]
   },
@@ -157,7 +157,7 @@ export const diningVenues = [
     title: "Mehfil Lounge & Bar",
     hi: "महफ़िल लाउंज और बार",
     image: images.bar,
-    text: "A relaxed evening lounge for mocktails, cocktails, premium snacks, soft music, and after-dinner conversations in a warm brass-and-wood setting.",
+    text: "A moody lounge and bar setting for mocktails, cocktails, small plates, soft music, and relaxed after-dinner conversations.",
     timing: "4:00 PM - 12:00 AM",
     highlights: ["Signature drinks", "Small plates", "Evening lounge"]
   },
@@ -165,7 +165,7 @@ export const diningVenues = [
     title: "Private Courtyard Dining",
     hi: "निजी कोर्टयार्ड डाइनिंग",
     image: images.courtyardDining,
-    text: "A romantic private dining setup for anniversaries, proposals, family celebrations, and intimate dinners under soft courtyard lighting.",
+    text: "A private table setup for anniversaries, proposals, family celebrations, and intimate dinners with soft lighting and curated service.",
     timing: "On request",
     highlights: ["Private setup", "Celebration menus", "Candlelight dinner"]
   }
@@ -237,15 +237,15 @@ export const blogPosts = [
 
 export const pageContent = {
   about: { title: "A Modern Palace of Warm Indian Hospitality", hi: "आधुनिक महल जैसा गर्मजोशी भरा भारतीय आतिथ्य", eyebrow: "About", image: images.palace, intro: "Hotel B Anand brings together royal Indian architecture, precise contemporary comfort, and service that feels personal from the first greeting.", points: ["Curved arches and marble textures", "Signature suites and pool villas", "Fine dining and Indian regional cuisine", "Spa, yoga, and wellness rituals", "Destination wedding and business event expertise"] },
-  "rooms-suites": { title: "Luxury Rooms & Suites", hi: "लक्ज़री कमरे और सुइट्स", eyebrow: "Stay", image: images.suite, intro: "Every room is designed around rest, privacy, craft, and elegant technology that supports the stay without stealing attention.", points: ["Premium bedding", "Marble bathrooms", "High speed Wi-Fi", "Availability-ready booking engine", "Virtual tour ready galleries"] },
-  "luxury-villas": { title: "Private Luxury Villas", hi: "निजी लक्ज़री विला", eyebrow: "Villas", image: images.villa, intro: "Pool villas for families, wedding hosts, and long-stay guests who want space, privacy, and dedicated hosting.", points: ["Private pool", "Hosted dining", "Butler service", "Garden decks", "Multi-room layouts"] },
-  dining: { title: "Fine Dining with an Indian Soul", hi: "भारतीय आत्मा के साथ शाही भोजन", eyebrow: "Dining", image: images.dining, intro: "Signature menus move from royal thalis to global tasting plates, with chef-hosted evenings, terrace cocktails, and private dining.", points: ["Royal thali", "Chef table", "Private dining", "Bar and lounge", "Vegetarian tasting menus"] },
-  "spa-wellness": { title: "Spa & Wellness Rituals", hi: "आराम एवं वेलनेस रिचुअल्स", eyebrow: "Wellness", image: images.spa, intro: "A calm wellness floor with Ayurveda, massage, yoga, breathwork, steam, and sleep rituals tailored to each guest.", points: ["Ayurvedic therapies", "Yoga courtyard", "Steam and jacuzzi", "Sound healing", "Couples rituals"] },
-  wedding: { title: "A Royal Wedding Destination", hi: "शाही विवाह स्थल", eyebrow: "Wedding", image: images.wedding, intro: "Host mehendi, haldi, sangeet, pheras, reception, and farewell brunch in one seamless luxury destination.", points: ["Mandap design", "Floral atelier", "Guest stays", "Menu tasting", "Bridal suite"] },
-  banquet: { title: "Banquet Halls for Grand Celebrations", hi: "भव्य समारोहों के लिए बैंक्वेट हॉल", eyebrow: "Banquet", image: images.banquet, intro: "Flexible halls and salons for milestone birthdays, engagements, launches, family functions, and gala dinners.", points: ["Grand ballroom", "Private salons", "Stage and lighting", "Custom menus", "Valet and transfers"] },
-  meetings: { title: "Meetings with Resort-Level Ease", hi: "रिसॉर्ट जैसी सहजता के साथ मीटिंग्स", eyebrow: "Meetings", image: images.meeting, intro: "A refined corporate address for board meetings, leadership retreats, investor sessions, and hybrid conferences.", points: ["Boardrooms", "Hybrid AV", "Breakout lawns", "Executive menus", "Dedicated event manager"] },
+  "rooms-suites": { title: "Luxury Rooms & Suites", hi: "लक्ज़री कमरे और सुइट्स", eyebrow: "Stay", image: images.suite, intro: "Choose rooms shown with soft bedding, warm lighting, clean interiors, practical amenities, and quiet comfort for your stay.", points: ["Premium bedding", "Warm lighting", "High speed Wi-Fi", "Availability-ready booking engine", "Virtual tour ready galleries"] },
+  "luxury-villas": { title: "Private Luxury Villas", hi: "निजी लक्ज़री विला", eyebrow: "Villas", image: images.pool, intro: "Private stays shown with pool views, plush bedrooms, relaxed outdoor space, and hotel-level service for families and hosts.", points: ["Poolside stay", "Hosted dining", "Private service", "Outdoor lounging", "Multi-room layouts"] },
+  dining: { title: "Fine Dining with an Indian Soul", hi: "भारतीय आत्मा के साथ शाही भोजन", eyebrow: "Dining", image: images.dining, intro: "Restaurant spaces and thali images are matched with clear dining content: breakfast, chef specials, Indian meals, bar service, and private tables.", points: ["Indian thali", "Restaurant dining", "Private dining", "Bar and lounge", "Chef specials"] },
+  "spa-wellness": { title: "Spa & Wellness Rituals", hi: "आराम एवं वेलनेस रिचुअल्स", eyebrow: "Wellness", image: images.spa, intro: "A calm spa setting for massage therapies, steam, aromatherapy, and wellness time shaped around each guest's pace.", points: ["Massage therapy", "Steam", "Aromatherapy", "Quiet recovery", "Couples rituals"] },
+  wedding: { title: "A Royal Wedding Destination", hi: "शाही विवाह स्थल", eyebrow: "Wedding", image: images.wedding, intro: "Wedding visuals are supported with practical celebration content for decor, reception flow, guest stays, menus, and family comfort.", points: ["Wedding decor", "Guest stays", "Reception planning", "Menu tasting", "Bridal suite"] },
+  banquet: { title: "Banquet Halls for Grand Celebrations", hi: "भव्य समारोहों के लिए बैंक्वेट हॉल", eyebrow: "Banquet", image: images.banquet, intro: "Event hall images are paired with banquet-ready content for receptions, birthdays, engagements, launches, and formal dinners.", points: ["Event hall", "Stage and lighting", "Custom menus", "Seating plans", "Valet and transfers"] },
+  meetings: { title: "Meetings with Hotel Ease", hi: "होटल जैसी सहजता के साथ मीटिंग्स", eyebrow: "Meetings", image: images.meeting, intro: "Meeting room visuals now match the content: seating layouts, presentation support, Wi-Fi, executive dining, and hosted service.", points: ["Meeting room", "Presentation support", "High speed Wi-Fi", "Executive menus", "Dedicated event manager"] },
   offers: { title: "Luxury Offers & Packages", hi: "लक्ज़री ऑफर और पैकेज", eyebrow: "Offers", image: images.pool, intro: "Seasonal stay offers for wellness, weddings, weekends, family breaks, and corporate retreats.", points: ["Direct booking benefits", "Breakfast packages", "Spa credits", "Airport transfers", "Flexible upgrades"] },
-  experiences: { title: "Curated Luxury Experiences", hi: "विशेष लक्ज़री अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "Private journeys through craft, cuisine, heritage, lakes, wellness, and celebration.", points: ["Lake cruises", "Craft walks", "Chef markets", "Temple mornings", "Photography tours"] },
+  experiences: { title: "Curated Luxury Experiences", hi: "विशेष लक्ज़री अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "Simple local support for Greater Noida stays, business transfers, nearby visits, dining plans, wellness time, and celebrations.", points: ["Local transfers", "Business visits", "Dining plans", "Wellness time", "Celebration support"] },
   "nearby-attractions": { title: "Nearby Attractions", hi: "नज़दीकी आकर्षण", eyebrow: "Location", image: images.attraction, intro: "Explore Greater Noida with private transfers, thoughtful timings, and hosted experiences shaped around comfort.", points: ["India Expo Mart", "Pari Chowk", "Buddh International Circuit", "Business districts", "Airport transfers"] },
   faq: { title: "Frequently Asked Questions", hi: "अक्सर पूछे जाने वाले प्रश्न", eyebrow: "FAQ", image: images.lobby, intro: "Helpful answers for rooms, weddings, dining, corporate events, transfers, and direct booking.", points: ["Booking", "Weddings", "Rooms", "Dining", "Meetings"] },
   contact: { title: "Reserve Your Stay", hi: "अपना प्रवास बुक करें", eyebrow: "Contact", image: images.hero, intro: "Speak with our reservations desk for stays, weddings, villas, events, dining, spa, and curated itineraries.", points: [hotel.phone, hotel.email, hotel.address, "WhatsApp concierge", "Google Maps ready"] },
