@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --background: #faf7f2;
+  --foreground: #222222;
+}
+
+.dark {
+  --background: #222222;
+  --foreground: #faf7f2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(182, 141, 64, 0.24);
+}
+
+.luxury-container {
+  width: min(100% - 28px, 1180px);
+  margin-inline: auto;
+}
+
+.section-y {
+  padding-block: clamp(48px, 6vw, 92px);
+}
+
+.eyebrow {
+  color: #b68d40;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.heading-xl {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(2.8rem, 6.8vw, 6.4rem);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.heading-lg {
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(2rem, 3.8vw, 4.1rem);
+  line-height: 1.02;
+  letter-spacing: 0;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 18px 70px rgba(58, 42, 28, 0.12);
+  backdrop-filter: blur(24px);
+}
+
+.dark .glass {
+  border-color: rgba(234, 219, 200, 0.15);
+  background: rgba(34, 34, 34, 0.72);
+}
+
+.dark-glass {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(34, 34, 34, 0.45);
+  box-shadow: 0 24px 90px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(22px);
+}
+
+.icon-button {
+  display: grid;
+  height: 42px;
+  width: 42px;
+  place-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(182, 141, 64, 0.25);
+  background: rgba(250, 247, 242, 0.8);
+  color: #234234;
+  transition: 220ms ease;
+}
+
+.icon-button:hover {
+  background: #234234;
+  color: #ffffff;
+}
+
+.booking-field {
+  display: grid;
+  gap: 6px;
+  border-radius: 12px;
+  background: #ffffff;
+  padding: 10px 12px;
+  border: 1px solid rgba(35, 66, 52, 0.08);
+}
+
+.booking-field span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: rgba(34, 34, 34, 0.62);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.booking-field input {
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: #222222;
+  font-weight: 800;
+  outline: none;
+  color-scheme: light;
+}
+
+.booking-field input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 4px;
+  background-color: rgba(182, 141, 64, 0.16);
+}
+
+.compact-card {
+  border: 1px solid rgba(35, 66, 52, 0.08);
+  background: #ffffff;
+  box-shadow: 0 12px 34px rgba(58, 42, 28, 0.08);
+}
+
+.soft-pill {
+  border: 1px solid rgba(35, 66, 52, 0.1);
+  background: #ffffff;
+  color: #234234;
+}
+
+.bg-green .heading-lg,
+.bg-brown .heading-lg {
+  color: #ffffff;
+}
+
+.bg-green .eyebrow,
+.bg-brown .eyebrow,
+.bg-green .font-devanagari,
+.bg-brown .font-devanagari {
+  color: #eadbc8;
+}
+
+.bg-green .text-charcoal\/70,
+.bg-brown .text-charcoal\/70 {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.mega-menu {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: 220ms ease;
+}
+
+nav:hover .mega-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.masonry {
+  columns: 3 260px;
+  column-gap: 18px;
+}
+
+.masonry > * {
+  break-inside: avoid;
+  margin-bottom: 18px;
+}
+
+.footer-title {
+  color: #eadbc8;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.68);
+  text-transform: capitalize;
+  transition: 180ms ease;
+}
+
+.footer-link:hover {
+  color: #b68d40;
+}
+
+.noise {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
