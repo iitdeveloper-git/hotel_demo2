@@ -4,6 +4,7 @@ import { BookingCard } from "@/components/booking-card";
 import { EditorialCard, ReviewCard, RoomCards } from "@/components/cards";
 import { DiningButtons } from "@/components/dining-buttons";
 import { AwardCards } from "@/components/award-cards";
+import { ExperienceSlider } from "@/components/experience-slider";
 import { FAQAccordion } from "@/components/accordion";
 import { GalleryLightbox } from "@/components/gallery-lightbox";
 import { Reveal } from "@/components/reveal";
@@ -118,6 +119,20 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="experiences" className="section-y bg-ivory">
+        <div className="luxury-container">
+          <Reveal>
+            <div className="mb-10 text-center">
+              <p className="eyebrow">Signature Experiences</p>
+              <h2 className="mt-4 heading-lg text-green">Experiences shown exactly as guests use them</h2>
+              <p className="mt-2 font-devanagari text-2xl text-gold">विशेष अनुभव</p>
+            </div>
+          </Reveal>
+
+          <ExperienceSlider />
         </div>
       </section>
 
