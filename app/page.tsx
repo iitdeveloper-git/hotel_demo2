@@ -343,7 +343,11 @@ export default function HomePage() {
       <section className="bg-green py-20 text-white">
         <div className="luxury-container rounded-[32px] bg-white p-8 text-charcoal shadow-soft md:p-12">
           <div className="grid gap-8 lg:grid-cols-[1fr_.9fr] lg:items-center">
-            <div><p className="eyebrow">Newsletter</p><h2 className="mt-4 font-heading text-5xl text-green">Receive private invitations, seasonal packages, and chef table releases.</h2><p className="mt-2 font-devanagari text-xl text-gold">विशेष निमंत्रण और ऑफर प्राप्त करें</p></div>
+            <div>
+              <p className="eyebrow">Newsletter</p>
+              <h2 className="mt-4 font-heading text-4xl sm:text-5xl text-green">Receive private invitations, seasonal packages, and chef table releases.</h2>
+              <p className="mt-2 font-devanagari text-xl text-green font-bold">विशेष निमंत्रण और ऑफर प्राप्त करें</p>
+            </div>
             <form className="flex flex-col gap-3 sm:flex-row"><input className="min-h-14 flex-1 rounded-full border border-champagne bg-ivory px-5 outline-none focus:border-gold" placeholder="Your email address" aria-label="Email address" /><button className="rounded-full bg-gold px-7 py-4 font-bold text-white transition hover:bg-green" type="submit">Subscribe</button></form>
           </div>
         </div>
