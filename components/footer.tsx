@@ -43,7 +43,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 flex flex-col gap-3 border-t border-white/10 pt-6 text-sm text-white/60 md:flex-row md:items-center md:justify-between">
-          <p>© 2025 Raj Garden. All rights reserved.</p>
+          <p>© 2025 Hotel B Anand. All rights reserved.</p>
           <p>
             IIT-Developer dwara banaya hai{" "}
             <a className="font-bold text-gold hover:text-white" href="https://iitdeveloper.com" target="_blank" rel="noreferrer">
