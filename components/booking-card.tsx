@@ -5,6 +5,8 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { CalendarDays, Clock, Users, BedDouble, Search } from "lucide-react";
 
+import { hotel } from "@/lib/hotel-data";
+
 const schema = z.object({
   checkIn: z.string().min(1),
   checkOut: z.string().min(1),
@@ -33,8 +35,15 @@ export function BookingCard({ compact = false }: { compact?: boolean }) {
   });
 
   function onSubmit(values: BookingValues) {
-    const message = `Hotel B Anand booking enquiry: ${values.checkIn} to ${values.checkOut}, time ${values.bookingTime}, ${values.guests} guests, ${values.rooms} rooms.`;
-    window.open(`https://wa.me/917302755534?text=${encodeURIComponent(message)}`, "_blank");
+    const message = `🙏 नमस्ते Hotel B Anand! मुझे कमरा/हॉल बुक करना है। विवरण इस प्रकार है:
+📅 Check-in: ${values.checkIn}
+📅 Check-out: ${values.checkOut}
+⏰ Time: ${values.bookingTime}
+👥 Guests: ${values.guests}
+🛏️ Rooms: ${values.rooms}
+
+कृपया बुकिंग उपलब्धता और रेट्स की जानकारी साझा करें।`;
+    window.open(`https://wa.me/${hotel.whatsapp}?text=${encodeURIComponent(message)}`, "_blank");
   }
 
   return (

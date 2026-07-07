@@ -91,22 +91,16 @@ export default async function ContentPage({ params }: { params: Promise<{ slug: 
 }
 
 const roomShowcase = [
-  { title: "Standard Rooms", tag: "Luxury Room", price: "₹8,500", rating: "4.9", image: rooms[1].image, beds: "1 Bed", baths: "1 Bath", size: "300 sqft" },
-  { title: "Deluxe Rooms", tag: "Luxury Room", price: "₹12,500", rating: "5.0", image: rooms[2].image, beds: "1 Bed", baths: "2 Bath", size: "400 sqft" },
-  { title: "The Pearl Suite", tag: "Luxury Suite", price: "₹24,500", rating: "4.9", image: rooms[0].image, beds: "2 Bed", baths: "2 Bath", size: "700 sqft" },
-  { title: "Golden Horizon Suite", tag: "Luxury Suite", price: "₹28,000", rating: "4.9", image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1800&q=85", beds: "3 Bed", baths: "3 Bath", size: "800 sqft" },
-  { title: "The Haven Room", tag: "Luxury Room", price: "₹15,000", rating: "5.0", image: "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=1800&q=85", beds: "2 Bed", baths: "2 Bath", size: "750 sqft" },
-  { title: "Executive Deluxe", tag: "Luxury Room", price: "₹18,500", rating: "5.0", image: "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1800&q=85", beds: "2 Bed", baths: "2 Bath", size: "520 sqft" },
-  { title: "The Prestige Room", tag: "Luxury Room", price: "₹21,000", rating: "5.0", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85", beds: "1 Bed", baths: "1 Bath", size: "450 sqft" },
-  { title: "Royal Suite", tag: "Luxury Suite", price: "₹38,000", rating: "5.0", image: images.villa, beds: "4 Bed", baths: "3 Bath", size: "825 sqft" },
-  { title: "Family Suites", tag: "Luxury Suite", price: "₹42,000", rating: "5.0", image: images.familySuite, beds: "5 Bed", baths: "4 Bath", size: "950 sqft" }
+  { title: "AC Comfort Room", tag: "Comfort AC Room", price: "₹1,500", rating: "4.8", image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=80", beds: "Double bed", baths: "1 Bath", size: "280 sqft" },
+  { title: "Deluxe Room", tag: "Deluxe Room", price: "₹2,000", rating: "4.9", image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1200&q=80", beds: "King bed", baths: "1 Bath", size: "350 sqft" },
+  { title: "Premium Suite", tag: "Premium Suite", price: "₹3,500", rating: "5.0", image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80", beds: "King bed", baths: "1 Bath", size: "480 sqft" }
 ];
 
 function RoomsSuitesShowcase() {
   return (
     <main>
       <section className="relative min-h-[340px] overflow-hidden bg-green pt-32 text-white">
-        <Image src={images.suite} alt="Rooms and Suites at Hotel B Anand" fill priority sizes="100vw" className="object-cover opacity-45" />
+        <Image src={images.suite} alt="Rooms and Suites at Raj Garden Hotel" fill priority sizes="100vw" className="object-cover opacity-45" />
         <div className="absolute inset-0 bg-charcoal/45" />
         <div className="luxury-container relative grid min-h-[220px] place-items-center text-center">
           <div>
@@ -121,9 +115,9 @@ function RoomsSuitesShowcase() {
           <div className="relative mb-12 text-center">
             <p className="pointer-events-none absolute inset-x-0 -top-12 font-heading text-7xl text-green/[0.04] md:text-9xl">ROOMS & SUITES</p>
             <p className="eyebrow">Rooms & Suites</p>
-            <h2 className="mt-3 font-heading text-4xl text-charcoal md:text-6xl">Luxury Rooms & Suites</h2>
+            <h2 className="mt-3 font-heading text-4xl text-charcoal md:text-6xl">Comfortable Rooms & Suites</h2>
             <p className="mx-auto mt-4 max-w-3xl text-base leading-7 text-charcoal/65">
-              Choose elegant rooms and spacious suites with refined interiors, comfortable bedding, modern amenities, and warm Hotel B Anand service.
+              Choose elegant rooms and spacious suites with refined interiors, comfortable bedding, modern amenities, and warm Raj Garden Hotel service.
             </p>
           </div>
 
@@ -131,7 +125,7 @@ function RoomsSuitesShowcase() {
             {roomShowcase.map((room, index) => (
               <article key={room.title} className={`group overflow-hidden rounded-[18px] border bg-white shadow-soft ${index === 0 ? "border-green/45" : "border-green/10"}`}>
                 <div className="relative h-60 overflow-hidden">
-                  <Image src={room.image} alt={`${room.title} at Hotel B Anand`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-105" />
+                  <Image src={room.image} alt={`${room.title} at Raj Garden Hotel`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-105" />
                   {index === 0 ? (
                     <span className="absolute inset-0 grid place-items-center">
                       <span className="grid h-12 w-12 place-items-center rounded-full bg-white/90 text-green shadow-soft">

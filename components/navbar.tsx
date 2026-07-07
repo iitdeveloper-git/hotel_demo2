@@ -5,10 +5,12 @@ import { useEffect, useState } from "react";
 import { Mail, MapPin, Menu, Phone, X } from "lucide-react";
 import { hotel, navItems } from "@/lib/hotel-data";
 import { cn } from "@/lib/utils";
+import { BookingModal } from "./booking-modal";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [bookingOpen, setBookingOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -51,9 +53,12 @@ export function Navbar() {
           ))}
         </div>
 
-        <Link href="/book-now" className="hidden rounded-full bg-green px-6 py-3 text-sm font-bold text-white transition hover:bg-gold lg:inline-flex">
+        <button 
+          onClick={() => setBookingOpen(true)}
+          className="hidden rounded-full bg-green px-6 py-3 text-sm font-bold text-white transition hover:bg-gold lg:inline-flex"
+        >
           Book Now
-        </Link>
+        </button>
 
         <button className="icon-button lg:hidden" onClick={() => setOpen(!open)} aria-label="Open menu">
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -68,14 +73,21 @@ export function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/book-now" className="mt-2 rounded-xl bg-green px-4 py-3 text-center font-bold text-white">
+            <button 
+              onClick={() => {
+                setOpen(false);
+                setBookingOpen(true);
+              }}
+              className="mt-2 rounded-xl bg-green px-4 py-3 text-center font-bold text-white"
+            >
               Book Now
-            </Link>
+            </button>
           </div>
         </div>
       ) : null}
 
       <ScrollProgress />
+      <BookingModal isOpen={bookingOpen} onClose={() => setBookingOpen(false)} />
     </header>
   );
 }

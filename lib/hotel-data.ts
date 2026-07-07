@@ -27,37 +27,33 @@ import {
 } from "lucide-react";
 
 export const hotel = {
-  name: "Hotel B Anand",
-  hindiName: "होटल बी आनंद",
-  tagline: "Royal Indian luxury with a modern soul",
-  hindiTagline: "आधुनिक आत्मा के साथ शाही भारतीय लक्ज़री",
-  phone: "+91-7302755534",
-  whatsapp: "917302755534",
-  email: "reservations@hotelbanand.com",
-  address: "Hotel B Anand, Greater Noida, Uttar Pradesh 201310, India",
-  shortAddress: "Greater Noida, Uttar Pradesh",
-  coordinates: { lat: 28.4744, lng: 77.504 },
-  baseUrl: "https://hotelbanand.com"
+  name: "Raj Garden Hotel",
+  hindiName: "राज गार्डन होटल",
+  tagline: "Hotel · Restaurant · Banquet Hall",
+  hindiTagline: "मनोना धाम के पास सर्वश्रेष्ठ होटल · प्रीमियम रेस्टोरेंट · बैंक्वेट हॉल",
+  phone: "+91-9760761033",
+  whatsapp: "919760761033",
+  email: "info@rajgardenaonla.com",
+  address: "Aonla - Shahabad Road, Behta Janu, Aonla, Bareilly District, Uttar Pradesh 243301, India",
+  shortAddress: "Aonla, Bareilly, Uttar Pradesh",
+  coordinates: { lat: 28.2855111, lng: 79.1497908 },
+  baseUrl: "https://www.rajgardenhotels.com"
 };
 
 export const navItems = [
   { label: "Home", hi: "होम", href: "/" },
-  { label: "About", hi: "परिचय", href: "/about" },
-  { label: "Rooms & Suites", hi: "कमरे", href: "/rooms-suites" },
-  { label: "Luxury Villas", hi: "विला", href: "/luxury-villas" },
-  { label: "Dining", hi: "भोजन", href: "/dining" },
-  { label: "Spa", hi: "स्पा", href: "/spa-wellness" },
-  { label: "Wedding", hi: "विवाह", href: "/wedding" },
-  { label: "Gallery", hi: "गैलरी", href: "/gallery" },
-  { label: "Offers", hi: "ऑफर", href: "/offers" },
-  { label: "Contact", hi: "संपर्क", href: "/contact" }
+  { label: "Rooms", hi: "कमरे", href: "/#rooms" },
+  { label: "Restaurant", hi: "रेस्टोरेंट", href: "/#restaurant" },
+  { label: "Banquet", hi: "बैंक्वेट", href: "/#banquet" },
+  { label: "Gallery", hi: "गैलरी", href: "/#gallery" },
+  { label: "Contact", hi: "संपर्क", href: "/#contact" }
 ];
 
 export const images = {
-  hero: "/lobby-reception-royal.png",
-  palace: "/luxury-lobby-chandelier.png",
-  lobby: "/modern-hotel-lounge.png",
-  suite: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=2000&q=85",
+  hero: "/wedding-hero.jpg",
+  palace: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2000&q=85",
+  lobby: "/lobby-reception-royal.png",
+  suite: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85",
   bath: "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1800&q=85",
   villa: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=2000&q=85",
   pool: "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2000&q=85",
@@ -74,39 +70,39 @@ export const images = {
   courtyardDining: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=1800&q=85",
   frontDesk: "/front-desk-warm.png",
   reception: "/modern-reception.png",
-  attraction: "https://images.unsplash.com/photo-1599661046289-e31897846e41?auto=format&fit=crop&w=2000&q=85"
+  attraction: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=2000&q=85"
 };
 
 export const rooms = [
   {
-    title: "Maharaja Signature Suite",
-    hi: "महाराजा सिग्नेचर सुइट",
-    price: "₹38,000",
-    image: images.suite,
-    size: "780 sq ft",
-    details: "A spacious suite with a king bed, soft layered linen, warm bedside lighting, a calm seating corner, and polished hotel comfort.",
-    hiDetails: "हस्तनिर्मित जालियां, मार्बल बाथ, निजी डाइनिंग और शांत बटलर सेवा इसे राजसी निवास जैसा बनाते हैं।",
-    amenities: ["King bed", "Soft linen", "Warm lighting", "Evening turndown"]
+    title: "AC Comfort Room",
+    hi: "एसी कम्फर्ट रूम",
+    price: "₹1,500",
+    image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1800&q=85",
+    size: "280 sq ft",
+    details: "A comfortable air-conditioned room with a cozy double bed, premium linen, attached clean bathroom, and high-speed Wi-Fi.",
+    hiDetails: "डबल बेड, एयर कंडीशनिंग, अटैच्ड साफ़ बाथरूम और हाई-स्पीड वाई-फाई के साथ एक आरामदायक कमरा।",
+    amenities: ["Air Conditioning", "Double Bed", "Room Service", "Hot Water"]
   },
   {
-    title: "Anand Club Room",
-    hi: "आनंद क्लब कमरा",
-    price: "₹18,500",
-    image: "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1800&q=85",
-    size: "420 sq ft",
-    details: "A bright modern room with clean bedding, soft curtains, practical storage, and a quiet setting for short business or leisure stays.",
-    hiDetails: "क्लब लाउंज, आरामदायक कार्य डेस्क और शांत वातावरण के साथ बिजनेस और अवकाश दोनों के लिए आदर्श।",
-    amenities: ["Modern room", "Rain shower", "Work corner", "High speed Wi-Fi"]
+    title: "Deluxe Room",
+    hi: "डीलक्स रूम",
+    price: "₹2,000",
+    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1800&q=85",
+    size: "350 sq ft",
+    details: "A spacious deluxe room featuring a king-size bed, a comfortable sitting area, and premium in-room amenities.",
+    hiDetails: "किंग-साइज़ बेड, आरामदायक बैठने की जगह और प्रीमियम इन-रूम सुविधाओं के साथ एक विशाल डीलक्स कमरा।",
+    amenities: ["Air Conditioning", "King Bed", "Sitting Area", "Premium Linen"]
   },
   {
-    title: "Royal Courtyard Room",
-    hi: "रॉयल कोर्टयार्ड कमरा",
-    price: "₹22,000",
-    image: images.courtyardRoom,
-    size: "510 sq ft",
-    details: "A restful room with warm wood tones, generous natural light, soft furnishings, and a relaxed lounge-like feeling.",
-    hiDetails: "लकड़ी, ब्रास लैंप, गार्डन व्यू और राजस्थानी हवेली से प्रेरित रंगों वाला शांत कमरा।",
-    amenities: ["Window seating", "Luxury linen", "Mini bar", "Yoga mat"]
+    title: "Premium Suite",
+    hi: "प्रीमियम सुइट",
+    price: "₹3,500",
+    image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1800&q=85",
+    size: "480 sq ft",
+    details: "Our finest stay offering maximum space, elegant furniture, plush bedding, and dedicated room service.",
+    hiDetails: "अधिकतम स्थान, सुंदर फर्नीचर, शानदार बिस्तर और समर्पित रूम सर्विस प्रदान करने वाला हमारा सबसे बेहतरीन कमरा।",
+    amenities: ["King Bed", "Premium Lounge", "24/7 Room Service", "Luxury Amenities"]
   }
 ];
 
@@ -115,146 +111,114 @@ export const villas = [
     title: "Raj Mahal Pool Villa",
     hi: "राज महल पूल विला",
     image: images.pool,
-    price: "₹92,000",
-    text: "A poolside private stay with open resort views, outdoor lounging, personal service, and space for families or celebration hosts."
-  },
-  {
-    title: "Champagne Garden Villa",
-    hi: "शैम्पेन गार्डन विला",
-    image: images.villa,
-    price: "₹74,000",
-    text: "A quiet villa-style suite with a plush bedroom, warm lighting, refined furniture, and private breakfast service on request."
+    price: "₹9,200",
+    text: "A poolside private stay with open resort views, outdoor lounging, personal service, and space for families."
   }
 ];
 
 export const experiences = [
-  { title: "Fine Dining", hi: "शाही भोजन", icon: Utensils, image: images.dining, text: "A refined restaurant setting for breakfast, family dinners, chef specials, and candlelit evening meals." },
-  { title: "Spa & Wellness", hi: "आराम एवं वेलनेस", icon: Sparkles, image: images.spa, text: "A calm wellness space for massage therapies, steam, aromatherapy, and slow recovery rituals." },
-  { title: "Wedding Destination", hi: "शाही विवाह स्थल", icon: Heart, image: images.wedding, text: "Elegant wedding decor, floral settings, reception styling, and guest movement planned with care." },
-  { title: "Banquet Halls", hi: "बैंक्वेट हॉल", icon: PartyPopper, image: images.banquet, text: "Large event halls arranged for receptions, birthdays, engagements, launches, and formal dinners." },
-  { title: "Meetings", hi: "मीटिंग्स", icon: BriefcaseBusiness, image: images.meeting, text: "Conference-style meeting rooms with seating plans, presentation support, and attentive service." },
-  { title: "Curated Journeys", hi: "विशेष अनुभव", icon: Landmark, image: images.attraction, text: "Comfortable Greater Noida visits, business transfers, local guidance, and nearby attraction planning." }
+  { title: "Pure Veg Dining", hi: "शुद्ध शाकाहारी भोजन", icon: Utensils, image: images.dining, text: "A fresh pure-vegetarian restaurant serving local North Indian culinary delights daily." },
+  { title: "Banquet Lawns", hi: "बैंक्वेट लॉन्स", icon: PartyPopper, image: images.banquet, text: "Beautiful open-air green lawns and spaces perfect for weddings, anniversaries, and grand receptions." },
+  { title: "Pilgrim Comfort", hi: "तीर्थयात्रियों की सुविधा", icon: Landmark, image: images.attraction, text: "Just 2.5 km from Shree Khatu Shyam Ji Manona Dham. Free parking and rest options for pilgrims." }
 ];
 
 export const diningVenues = [
   {
-    title: "Anand Royal Thali",
-    hi: "आनंद रॉयल थाली",
-    image: images.thali,
-    text: "A colourful Indian thali experience with fresh breads, seasonal vegetables, dal, rice, sweets, chutneys, and warm family-style service.",
-    timing: "Lunch 12:30 PM - 3:30 PM",
-    highlights: ["Royal thali", "Vegetarian options", "Family dining"]
-  },
-  {
-    title: "Sheesh Mahal Restaurant",
-    hi: "शीश महल रेस्टोरेंट",
+    title: "The Garden Restaurant",
+    hi: "द गार्डन रेस्टोरेंट",
     image: images.dining,
-    text: "A polished restaurant space for breakfast, lunch, dinner buffets, chef specials, and comfortable all-day hotel dining.",
-    timing: "7:00 AM - 11:00 PM",
-    highlights: ["Breakfast buffet", "A la carte", "Chef specials"]
-  },
-  {
-    title: "Mehfil Lounge & Bar",
-    hi: "महफ़िल लाउंज और बार",
-    image: images.bar,
-    text: "A moody lounge and bar setting for mocktails, cocktails, small plates, soft music, and relaxed after-dinner conversations.",
-    timing: "4:00 PM - 12:00 AM",
-    highlights: ["Signature drinks", "Small plates", "Evening lounge"]
-  },
-  {
-    title: "Private Courtyard Dining",
-    hi: "निजी कोर्टयार्ड डाइनिंग",
-    image: images.courtyardDining,
-    text: "A private table setup for anniversaries, proposals, family celebrations, and intimate dinners with soft lighting and curated service.",
-    timing: "On request",
-    highlights: ["Private setup", "Celebration menus", "Candlelight dinner"]
+    text: "Indulge in freshly prepared pure vegetarian Indian cuisine in a lush, relaxing environment.",
+    timing: "All Day: 7:00 AM - 11:00 PM",
+    highlights: ["Pure Vegetarian", "Pilgrim Specials", "Family Dining"]
   }
 ];
 
 export const awards = [
-  "Best New Luxury Heritage Hotel 2026",
-  "India Design Excellence Shortlist",
-  "Top Wedding Venue in Greater Noida",
-  "Guest Choice 4.9/5"
+  "Closest Premium Hotel to Manona Dham",
+  "Top Rated Banquet Hall in Aonla",
+  "100% Pure Vegetarian In-House Kitchen",
+  "Guest Choice Award 4.8/5"
 ];
 
 export const reviews = [
-  { name: "Aarav Mehta", role: "Luxury Travel Curator", text: "Hotel B Anand feels deeply Indian without becoming ornamental. The service has grace, timing, and real warmth.", rating: 5 },
-  { name: "Naina Kapoor", role: "Bride", text: "Our wedding flowed beautifully from mehendi to reception. Every guest felt personally hosted.", rating: 5 },
-  { name: "Daniel Roy", role: "CEO Retreat Host", text: "The meeting spaces were precise, but the evenings around the courtyard made the retreat memorable.", rating: 5 }
+  { name: "Rahul Sharma", role: "Pilgrim", text: "Manona Dham mandir se bilkul paas hai. Rooms bohot clean the aur khana bilkul shuddh aur swadisht tha.", rating: 5 },
+  { name: "Suman Verma", role: "Event Host", text: "Humne yahan se wedding ceremony organize ki thi. Lawn bohot accha hai aur parking ki koi problem nahi hui.", rating: 5 },
+  { name: "Amit Singh", role: "Business Traveler", text: "Best stay option near Aonla. Courteous staff and great service quality.", rating: 5 }
 ];
 
 export const offers = [
-  { title: "Royal Weekend", hi: "रॉयल वीकेंड", image: images.palace, price: "from ₹34,000", text: "Breakfast, airport transfer, spa credit, and late checkout." },
-  { title: "Wedding Preview Stay", hi: "विवाह प्रीव्यू स्टे", image: images.wedding, price: "from ₹52,000", text: "Venue walk, menu tasting, floral consultation, and suite stay." },
-  { title: "Wellness Reset", hi: "वेलनेस रीसेट", image: images.spa, price: "from ₹46,000", text: "Two nights, yoga, spa therapy, sattvic dining, and sleep ritual." }
+  { title: "Pilgrim Special Offer", hi: "तीर्थयात्री विशेष", image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80", price: "Special Rates", text: "Enjoy budget-friendly rooms and early check-in options for Khatu Shyam Ji devotees." },
+  { title: "Wedding Lawn Package", hi: "वेडिंग लॉन पैकेज", image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80", price: "Custom Pricing", text: "Complete venue setup, premium floral decor, ambient lighting, and vegetarian catering." },
+  { title: "Weekend Comfort Stay", hi: "वीकेंड कम्फर्ट स्टे", image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80", price: "from ₹1,400/night", text: "A relaxing weekend break with complimentary breakfast and 24-hour room service." },
+  { title: "Pure Veg Dining Package", hi: "शुद्ध शाकाहारी थाली पैकेज", image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=800&q=80", price: "₹299 onwards", text: "Delicious North Indian Thali cooked fresh daily using organic local ingredients." },
+  { title: "Pilgrim Group Booking", hi: "तीर्थयात्री समूह बुकिंग", image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80", price: "Group Discounts", text: "Special room rates, large parking slots, and customizable menus for pilgrim buses." },
+  { title: "Event Venue Booking", hi: "बैंक्वेट समारोह बुकिंग", image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80", price: "Custom Package", text: "Host birthday parties, engagements, and corporate meetings in our green lawns." }
 ];
 
 export const gallery = [
-  images.hero,
-  images.palace,
-  images.lobby,
-  images.suite,
-  images.bath,
-  images.villa,
-  images.pool,
-  images.dining,
-  images.thali,
-  images.spa,
-  images.wedding,
-  images.banquet,
-  images.meeting,
-  images.bar,
-  images.frontDesk
+  "/new-gallery-1.jpg",
+  "/wedding-1.jpg",
+  "/hotel-3.png",
+  "/hotel-2.jpg",
+  "/wedding-2.jpg",
+  "/new-gallery-2.jpg",
+  "/hotel-1.jpg",
+  "/wedding-3.jpg",
+  "/new-gallery-3.jpg",
+  "/new-gallery-4.jpg",
+  "/wedding-4.png",
+  "/new-gallery-5.png",
+  "/catering-1.jpg",
+  "/catering-2.jpg",
+  "/catering-3.jpg",
+  "/catering-4.jpg"
 ];
 
 export const galleryCategories = [
-  { title: "Rooms & Suites", slug: "rooms-suites", image: images.suite, intro: "Editorial room photography with beds, baths, balconies, and crafted details.", highlights: ["Marble baths", "Palace views", "Brass details", "Suite dining"] },
-  { title: "Wedding", slug: "wedding", image: images.wedding, intro: "Ceremonies, mandaps, receptions, mehendi lawns, and bridal suites.", highlights: ["Mandap", "Floral atelier", "Reception", "Portraits"] },
-  { title: "Dining", slug: "dining", image: images.dining, intro: "Signature restaurants, private thalis, chef tables, and terrace cocktails.", highlights: ["Chef table", "Indian menus", "Wine room", "Bar"] },
-  { title: "Wellness", slug: "wellness", image: images.spa, intro: "Spa suites, yoga courtyards, steam rooms, and recovery lounges.", highlights: ["Ayurveda", "Yoga", "Steam", "Rituals"] }
+  { title: "Rooms & Comfort", slug: "rooms-comfort", image: images.suite, intro: "Clean, comfortable air-conditioned rooms featuring cozy beds and pristine bathrooms.", highlights: ["Air Conditioning", "King Beds", "24/7 Room Service", "Hot Water"] },
+  { title: "Banquet & Events", slug: "banquet-events", image: images.wedding, intro: "Event lawns and decorated walkways ideal for marriages, receptions, and parties.", highlights: ["Wedding Lawn", "Fairy Lights", "Catering Support", "Stage Setup"] },
+  { title: "The Garden Restaurant", slug: "restaurant", image: images.dining, intro: "Shuddh Shakahari (Pure Veg) dining experience for families and visitor groups.", highlights: ["100% Pure Veg", "North Indian Specials", "Comfortable Seating", "Room Service"] }
 ];
 
 export const attractions = [
-  { title: "India Expo Mart", distance: "10 min", icon: Landmark, text: "Hosted transfers for exhibitions, conferences, trade shows, and business events." },
-  { title: "Pari Chowk", distance: "12 min", icon: Waves, text: "Quick access to Greater Noida's central dining, shopping, and city connections." },
-  { title: "Buddh International Circuit", distance: "30 min", icon: Mountain, text: "Race-day transfers, packed refreshments, and hosted group movement on request." },
-  { title: "Noida International Airport", distance: "45 min", icon: Plane, text: "Luxury sedan, premium SUV, and group transfers on request." }
+  { title: "Manona Dham Shyam Ji Mandir", distance: "2.5 km (5-10 mins)", icon: Landmark, text: "Reverend pilgrim site for Khatu Shyam Ji devotees, easily accessible by auto or car." },
+  { title: "Aonla Railway Station", distance: "3.5 km", icon: MapPin, text: "Local railway connections linking Bareilly and surrounding regions." },
+  { title: "Bareilly Junction", distance: "28 km", icon: MapPin, text: "Major railway station connecting to major cities across North India." }
 ];
 
 export const faqs = [
-  { q: "Is Hotel B Anand a luxury hotel in Greater Noida?", hiQ: "क्या होटल बी आनंद ग्रेटर नोएडा में लक्ज़री होटल है?", a: "Yes. Hotel B Anand is designed as a premium Indian luxury hotel with suites, villas, fine dining, spa, weddings, banquet halls, meeting spaces, concierge, and private transfers.", hiA: "हाँ। होटल बी आनंद सुइट्स, विला, शाही भोजन, स्पा, विवाह, बैंक्वेट, मीटिंग स्पेस और निजी ट्रांसफर वाला प्रीमियम भारतीय लक्ज़री होटल है।" },
-  { q: "Can I book weddings and banquets?", hiQ: "क्या विवाह और बैंक्वेट बुक हो सकते हैं?", a: "Yes. The hotel hosts destination weddings, receptions, engagements, corporate galas, and private celebrations with planning support.", hiA: "हाँ। होटल डेस्टिनेशन वेडिंग, रिसेप्शन, सगाई, कॉर्पोरेट गाला और निजी समारोहों की योजना में सहयोग करता है।" },
-  { q: "Are rooms and villas available with breakfast?", hiQ: "क्या कमरों और विला में नाश्ता शामिल है?", a: "Most direct booking packages include breakfast. Seasonal offers may include spa credit, airport transfer, dinner, or late checkout.", hiA: "अधिकांश डायरेक्ट बुकिंग पैकेज में नाश्ता शामिल है। मौसमी ऑफर में स्पा क्रेडिट, एयरपोर्ट ट्रांसफर, डिनर या लेट चेकआउट भी हो सकता है।" },
-  { q: "Does the hotel support corporate meetings?", hiQ: "क्या होटल कॉर्पोरेट मीटिंग्स के लिए उपयुक्त है?", a: "Yes. Boardrooms, hybrid-ready meeting halls, breakout lawns, high-speed Wi-Fi, and executive dining are available.", hiA: "हाँ। बोर्डरूम, हाइब्रिड मीटिंग हॉल, ब्रेकआउट लॉन, हाई-स्पीड वाई-फाई और एग्जीक्यूटिव डाइनिंग उपलब्ध हैं।" }
-];
-
-export const blogPosts = [
-  { title: "How to Plan a Royal Greater Noida Wedding", slug: "royal-greater-noida-wedding", tag: "Wedding", image: images.wedding, text: "A practical guide to mandap timing, guest flow, menus, rooms, and photography light." },
-  { title: "The New Language of Indian Luxury Hotels", slug: "indian-luxury-hotels", tag: "Hospitality", image: images.lobby, text: "Why modern guests value quiet design, local craft, wellness, and intuitive service." },
-  { title: "A Two-Day Wellness Stay in Greater Noida", slug: "wellness-stay-greater-noida", tag: "Wellness", image: images.spa, text: "Yoga, Ayurvedic therapies, sattvic dining, and slow mornings in a luxury setting." }
+  { q: "How far is Raj Garden Hotel from Manona Dham?", hiQ: "राज गार्डन होटल मनोना धाम से कितना दूर है?", a: "Raj Garden Hotel is just 2.5 km away from Shree Khatu Shyam Ji Manona Dham, taking around 5 to 10 minutes by auto or car.", hiA: "राज गार्डन होटल श्री खाटू श्याम जी मनोना धाम से मात्र 2.5 किमी की दूरी पर है, जहां ऑटो या कार से लगभग 5 से 10 मिनट लगते हैं।" },
+  { q: "Is the food served 100% pure vegetarian?", hiQ: "क्या भोजन 100% शुद्ध शाकाहारी है?", a: "Yes, our in-house restaurant, The Garden, serves 100% pure vegetarian Indian cuisine prepared with fresh ingredients.", hiA: "हाँ, हमारा इन-हाउस रेस्टोरेंट, द गार्डन, ताजी सामग्री से तैयार 100% शुद्ध शाकाहारी भारतीय भोजन परोसता है।" },
+  { q: "Do you have parking space for tourist buses?", hiQ: "क्या आपके पास पर्यटक बसों के लिए पार्किंग की जगह है?", a: "Yes, we provide spacious free parking inside our premises that easily accommodates cars, SUVs, and large pilgrim buses.", hiA: "हाँ, हम अपने परिसर के अंदर विशाल निःशुल्क पार्किंग प्रदान करते हैं जिसमें कार, एसयूवी और बड़ी बसें आसानी से खड़ी हो सकती हैं।" },
+  { q: "Can we book the banquet lawns for marriages and events?", hiQ: "क्या हम शादियों और आयोजनों के लिए बैंक्वेट लॉन बुक कर सकते हैं?", a: "Yes, we offer multiple package configurations (Silver, Gold, Royal Grand) designed to cater to wedding receptions, engagements, and parties.", hiA: "हाँ, हम शादी के रिसेप्शन, सगाई और पार्टियों के लिए विशेष रूप से डिज़ाइन किए गए कई पैकेज (सिल्वर, गोल्ड, रॉयल ग्रैंड) प्रदान करते हैं।" }
 ];
 
 export const pageContent = {
-  about: { title: "A Modern Palace of Warm Indian Hospitality", hi: "आधुनिक महल जैसा गर्मजोशी भरा भारतीय आतिथ्य", eyebrow: "About", image: images.palace, intro: "Hotel B Anand brings together royal Indian architecture, precise contemporary comfort, and service that feels personal from the first greeting.", points: ["Curved arches and marble textures", "Signature suites and pool villas", "Fine dining and Indian regional cuisine", "Spa, yoga, and wellness rituals", "Destination wedding and business event expertise"] },
-  "rooms-suites": { title: "Luxury Rooms & Suites", hi: "लक्ज़री कमरे और सुइट्स", eyebrow: "Stay", image: images.suite, intro: "Choose rooms shown with soft bedding, warm lighting, clean interiors, practical amenities, and quiet comfort for your stay.", points: ["Premium bedding", "Warm lighting", "High speed Wi-Fi", "Availability-ready booking engine", "Virtual tour ready galleries"] },
-  "luxury-villas": { title: "Private Luxury Villas", hi: "निजी लक्ज़री विला", eyebrow: "Villas", image: images.pool, intro: "Private stays shown with pool views, plush bedrooms, relaxed outdoor space, and hotel-level service for families and hosts.", points: ["Poolside stay", "Hosted dining", "Private service", "Outdoor lounging", "Multi-room layouts"] },
-  dining: { title: "Fine Dining with an Indian Soul", hi: "भारतीय आत्मा के साथ शाही भोजन", eyebrow: "Dining", image: images.dining, intro: "Restaurant spaces and thali images are matched with clear dining content: breakfast, chef specials, Indian meals, bar service, and private tables.", points: ["Indian thali", "Restaurant dining", "Private dining", "Bar and lounge", "Chef specials"] },
-  "spa-wellness": { title: "Spa & Wellness Rituals", hi: "आराम एवं वेलनेस रिचुअल्स", eyebrow: "Wellness", image: images.spa, intro: "A calm spa setting for massage therapies, steam, aromatherapy, and wellness time shaped around each guest's pace.", points: ["Massage therapy", "Steam", "Aromatherapy", "Quiet recovery", "Couples rituals"] },
-  wedding: { title: "A Royal Wedding Destination", hi: "शाही विवाह स्थल", eyebrow: "Wedding", image: images.wedding, intro: "Wedding visuals are supported with practical celebration content for decor, reception flow, guest stays, menus, and family comfort.", points: ["Wedding decor", "Guest stays", "Reception planning", "Menu tasting", "Bridal suite"] },
-  banquet: { title: "Banquet Halls for Grand Celebrations", hi: "भव्य समारोहों के लिए बैंक्वेट हॉल", eyebrow: "Banquet", image: images.banquet, intro: "Event hall images are paired with banquet-ready content for receptions, birthdays, engagements, launches, and formal dinners.", points: ["Event hall", "Stage and lighting", "Custom menus", "Seating plans", "Valet and transfers"] },
-  meetings: { title: "Meetings with Hotel Ease", hi: "होटल जैसी सहजता के साथ मीटिंग्स", eyebrow: "Meetings", image: images.meeting, intro: "Meeting room visuals now match the content: seating layouts, presentation support, Wi-Fi, executive dining, and hosted service.", points: ["Meeting room", "Presentation support", "High speed Wi-Fi", "Executive menus", "Dedicated event manager"] },
-  offers: { title: "Luxury Offers & Packages", hi: "लक्ज़री ऑफर और पैकेज", eyebrow: "Offers", image: images.pool, intro: "Seasonal stay offers for wellness, weddings, weekends, family breaks, and corporate retreats.", points: ["Direct booking benefits", "Breakfast packages", "Spa credits", "Airport transfers", "Flexible upgrades"] },
-  experiences: { title: "Curated Luxury Experiences", hi: "विशेष लक्ज़री अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "Simple local support for Greater Noida stays, business transfers, nearby visits, dining plans, wellness time, and celebrations.", points: ["Local transfers", "Business visits", "Dining plans", "Wellness time", "Celebration support"] },
-  "nearby-attractions": { title: "Nearby Attractions", hi: "नज़दीकी आकर्षण", eyebrow: "Location", image: images.attraction, intro: "Explore Greater Noida with private transfers, thoughtful timings, and hosted experiences shaped around comfort.", points: ["India Expo Mart", "Pari Chowk", "Buddh International Circuit", "Business districts", "Airport transfers"] },
-  faq: { title: "Frequently Asked Questions", hi: "अक्सर पूछे जाने वाले प्रश्न", eyebrow: "FAQ", image: images.lobby, intro: "Helpful answers for rooms, weddings, dining, corporate events, transfers, and direct booking.", points: ["Booking", "Weddings", "Rooms", "Dining", "Meetings"] },
-  contact: { title: "Reserve Your Stay", hi: "अपना प्रवास बुक करें", eyebrow: "Contact", image: images.hero, intro: "Speak with our reservations desk for stays, weddings, villas, events, dining, spa, and curated itineraries.", points: [hotel.phone, hotel.email, hotel.address, "WhatsApp concierge", "Google Maps ready"] },
-  "book-now": { title: "Book Your Stay", hi: "अपना प्रवास बुक करें", eyebrow: "Reservations", image: images.suite, intro: "Choose dates, guests, rooms, preferences, and concierge requests. The form is ready for booking engine and payment integration.", points: ["Availability ready", "Payment ready", "Room preferences", "WhatsApp support", "Secure enquiry flow"] }
+  about: { title: "A Welcoming Sanctuary Near Manona Dham", hi: "मनोना धाम के पास एक स्वागत योग्य विश्राम स्थल", eyebrow: "About", image: images.palace, intro: "Raj Garden Hotel in Aonla brings together comfortable rooms, a pure-veg restaurant, and grand event spaces under one roof.", points: ["Comfortable AC rooms and suites", "Just 2.5 km from Manona Dham", "100% Pure Veg restaurant dining", "Grand wedding lawns & banquet services", "Free secure parking for buses and cars"] },
+  "rooms-suites": { title: "Comfortable Air-Conditioned Rooms", hi: "आरामदायक एसी कमरे", eyebrow: "Stay", image: images.suite, intro: "Choose from our neat, clean, and comfortable air-conditioned rooms designed to rest your spirit after a long journey.", points: ["Premium cozy bedding", "Reliable air cooling", "Attached modern bathrooms", "24/7 attentive room service", "High speed Wi-Fi access"] },
+  "luxury-villas": { title: "Private Luxury Stays", hi: "निजी लक्ज़री प्रवास", eyebrow: "Villas", image: images.pool, intro: "Private accommodations with customized services perfect for hosting families or special guests.", points: ["Poolside stays", "Hosted dining menus", "Private service protocols", "Spacious layouts"] },
+  dining: { title: "Pure Vegetarian Indian Dining", hi: "शुद्ध शाकाहारी भारतीय भोजन", eyebrow: "Dining", image: images.dining, intro: "Enjoy delicious, home-style pure-vegetarian Indian dishes prepared fresh daily inside our calm garden restaurant.", points: ["100% Pure Veg kitchen", "Traditional North Indian Thali", "Attentive family-style service", "Special pilgrim group menu setup", "24-hour in-room dining option"] },
+  "spa-wellness": { title: "Wellness & Rest", hi: "कल्याण और विश्राम", eyebrow: "Wellness", image: images.spa, intro: "Relax and rejuvenate your senses during your spiritual journey with comfortable rest areas.", points: ["Peaceful room environment", "Healthy pure vegetarian food", "Relaxing garden walks"] },
+  wedding: { title: "Grand Celebrations & Marriages", hi: "भव्य समारोह और विवाह", eyebrow: "Wedding", image: images.wedding, intro: "Make your wedding memorable with our grand garden lawns, beautiful floral decorations, atmospheric lighting, and full catering support.", points: ["Grand decorated lawn setup", "Stage and premium lights", "Delicious vegetarian feast", "Complimentary stay suites", "Ample parking for guests"] },
+  banquet: { title: "Banquet Hall & Event Packages", hi: "बैंक्वेट हॉल और इवेंट पैकेज", eyebrow: "Banquet", image: images.banquet, intro: "We offer multiple event packages designed to match small gatherings or grand receptions of up to 500+ guests.", points: ["Lawn and stage configurations", "Premium decorative lighting", "Dedicated event coordination", "In-house custom catering", "Adequate parking space"] },
+  meetings: { title: "Meetings & Social Gatherings", hi: "बैठकें और सामाजिक समारोह", eyebrow: "Meetings", image: images.meeting, intro: "Convenient event hosting with seating setups, support staff, and delicious dining options.", points: ["Configurable seating setup", "Attentive service personnel", "Custom lunch/dinner buffets", "Secure on-site parking"] },
+  offers: { title: "Pilgrim & Event Packages", hi: "तीर्थयात्री और इवेंट पैकेज", eyebrow: "Offers", image: images.pool, intro: "Special custom offers designed to make your pilgrim stay or family celebration comfortable and budget-friendly.", points: ["Pilgrim special rates", "Early check-in on availability", "Customized wedding lawn deals", "Dedicated coordinator support"] },
+  experiences: { title: "Pilgrim & Local Experiences", hi: "तीर्थयात्री और स्थानीय अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "We host pilgrim groups, wedding guests, and travelers with deep local hospitality and care.", points: ["Easy auto/car access to temple", "Secured night parking for buses", "Helpful 24/7 front desk", "Clean and fresh dining options"] },
+  "nearby-attractions": { title: "Nearby Sacred Sites & Stations", hi: "नज़दीकी पवित्र स्थल और स्टेशन", eyebrow: "Location", image: images.attraction, intro: "Raj Garden is located conveniently on Aonla-Shahabad Road, offering quick transit to local destinations.", points: ["Khatu Shyam Ji Manona Dham", "Aonla Railway Station", "Bareilly District Junction", "Local markets & transport hubs"] },
+  faq: { title: "Frequently Asked Questions", hi: "अक्सर पूछे जाने वाले प्रश्न", eyebrow: "FAQ", image: images.lobby, intro: "Quick answers to help you plan your rooms, event lawn booking, and pilgrim stays.", points: ["Manona Dham Proximity", "Pure Veg Dining", "Bus & Car Parking", "Wedding Lawn Bookings"] },
+  contact: { title: "Connect With Our Desk", hi: "हमारे डेस्क से संपर्क करें", eyebrow: "Contact", image: images.hero, intro: "Feel free to reach out for room bookings, wedding lawn pricing, or pilgrim group arrangements.", points: [hotel.phone, hotel.email, hotel.address, "WhatsApp Enquiry ready", "Google Maps directions"] },
+  "book-now": { title: "Book Your Room", hi: "अपना कमरा बुक करें", eyebrow: "Reservations", image: images.suite, intro: "Submit your details or connect via WhatsApp to reserve your stay instantly.", points: ["Direct WhatsApp Booking", "Clear pricing structure", "Quick availability response", "Pilgrim group assistance"] }
 };
 
 export const policyPages = {
-  privacy: { title: "Privacy Policy", hi: "गोपनीयता नीति", intro: "Hotel B Anand protects guest information with discretion and care.", sections: ["We collect details required for reservations, personalization, security, and legal compliance.", "Guest preferences may be used to improve service and can be updated on request.", "Payments are intended to be processed by secure PCI-compliant providers."] },
-  terms: { title: "Terms", hi: "नियम और शर्तें", intro: "These terms make direct booking, stays, events, and packages transparent.", sections: ["Rates vary by dates, availability, inclusions, taxes, and package rules.", "Guests must provide accurate booking details and valid identification.", "Weddings, villas, groups, and long stays may require deposits or separate agreements."] }
+  privacy: { title: "Privacy Policy", hi: "गोपनीयता नीति", intro: "Raj Garden Hotel values and protects our guest information.", sections: ["We collect details necessary for booking validations and legal registration.", "Personal preferences are used solely to improve our hospitality services.", "Contact details are kept secure and never shared with third parties."] },
+  terms: { title: "Terms & Conditions", hi: "नियम और शर्तें", intro: "Standard conditions to make bookings, event packages, and stays comfortable.", sections: ["Room availability is confirmed on a first-come, first-served basis.", "Events and banquet bookings require a prior advance deposit.", "Devotees and guests must submit valid government IDs during check-in."] }
 };
 
 export const amenityIcons = [Wifi, BedDouble, Bath, Car, CalendarDays, ChefHat, Leaf, Dumbbell, ShieldCheck, MessageCircle, Gem, Camera, Award, Star, Martini, MapPin];
+
+export const blogPosts = [
+  { title: "How to Plan a Wedding Near Manona Dham Aonla", slug: "plan-wedding-aonla", tag: "Wedding", image: images.wedding, text: "A practical guide to lawn setups, guest rooms, catering, and evening reception lights at Raj Garden." },
+  { title: "Pilgrim Guide: Staying Near Khatu Shyam Ji Manona Dham", slug: "pilgrim-stay-guide", tag: "Travel", image: images.attraction, text: "Everything you need to know about darshan timings, transport, parking, and finding premium rooms." },
+  { title: "The Joy of Shuddh Shakahari Dining on a Spiritual Journey", slug: "pure-veg-dining-benefits", tag: "Dining", image: images.dining, text: "Why freshly prepared pure-vegetarian meals are the perfect complement after visiting sacred shrines." }
+];

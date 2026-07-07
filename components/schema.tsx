@@ -12,16 +12,16 @@ export function Schema() {
       email: hotel.email,
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Raj Vilas Avenue, Anand Heritage District",
-        addressLocality: "Greater Noida",
+        streetAddress: "Aonla - Shahabad Road, Behta Janu",
+        addressLocality: "Aonla",
         addressRegion: "Uttar Pradesh",
-        postalCode: "313001",
+        postalCode: "243301",
         addressCountry: "IN"
       },
       geo: { "@type": "GeoCoordinates", latitude: hotel.coordinates.lat, longitude: hotel.coordinates.lng },
-      priceRange: "₹₹₹₹",
-      amenityFeature: ["Spa", "Fine Dining", "Wedding Venue", "Banquet Hall", "Meeting Rooms", "Pool Villas"].map((name) => ({ "@type": "LocationFeatureSpecification", name, value: true })),
-      containsPlace: rooms.map((room) => ({ "@type": "HotelRoom", name: room.title, bed: "King bed", occupancy: "2 adults" }))
+      priceRange: "₹₹",
+      amenityFeature: ["Pure Vegetarian Restaurant", "Wedding Lawn", "Banquet Hall", "Air Conditioning", "Free Parking"].map((name) => ({ "@type": "LocationFeatureSpecification", name, value: true })),
+      containsPlace: rooms.map((room) => ({ "@type": "HotelRoom", name: room.title, bed: "Double bed", occupancy: "2 adults" }))
     },
     {
       "@context": "https://schema.org",

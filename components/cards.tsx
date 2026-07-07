@@ -11,7 +11,7 @@ export function RoomCards() {
         <Reveal key={room.title} delay={index * 0.05}>
           <article className="group flex h-full min-h-[520px] flex-col overflow-hidden rounded-[18px] bg-white shadow-soft">
             <div className="relative h-64 shrink-0 overflow-hidden">
-              <Image src={room.image} alt={`${room.title} at Hotel B Anand`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-110" />
+              <Image src={room.image} alt={`${room.title} at Raj Garden Hotel`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-110" />
             </div>
             <div className="flex flex-1 flex-col p-5">
               <p className="font-devanagari text-sm text-gold">{room.hi}</p>
