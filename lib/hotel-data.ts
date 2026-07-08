@@ -27,8 +27,8 @@ import {
 } from "lucide-react";
 
 export const hotel = {
-  name: "Raj Garden Hotel",
-  hindiName: "राज गार्डन होटल",
+  name: "Hotel B Anand",
+  hindiName: "होटल बी आनंद",
   tagline: "Hotel · Restaurant · Banquet Hall",
   hindiTagline: "मनोना धाम के पास सर्वश्रेष्ठ होटल · प्रीमियम रेस्टोरेंट · बैंक्वेट हॉल",
   phone: "+91-7302755534",
@@ -187,7 +187,7 @@ export const attractions = [
 ];
 
 export const faqs = [
-  { q: "How far is Raj Garden Hotel from Manona Dham?", hiQ: "राज गार्डन होटल मनोना धाम से कितना दूर है?", a: "Raj Garden Hotel is just 2.5 km away from Shree Khatu Shyam Ji Manona Dham, taking around 5 to 10 minutes by auto or car.", hiA: "राज गार्डन होटल श्री खाटू श्याम जी मनोना धाम से मात्र 2.5 किमी की दूरी पर है, जहां ऑटो या कार से लगभग 5 से 10 मिनट लगते हैं।" },
+  { q: "How far is Hotel B Anand from Manona Dham?", hiQ: "होटल बी आनंद मनोना धाम से कितना दूर है?", a: "Hotel B Anand is just 2.5 km away from Shree Khatu Shyam Ji Manona Dham, taking around 5 to 10 minutes by auto or car.", hiA: "होटल बी आनंद श्री खाटू श्याम जी मनोना धाम से मात्र 2.5 किमी की दूरी पर है, जहां ऑटो या कार से लगभग 5 से 10 मिनट लगते हैं।" },
   { q: "Is the food served 100% pure vegetarian?", hiQ: "क्या भोजन 100% शुद्ध शाकाहारी है?", a: "Yes, our in-house restaurant serves 100% pure vegetarian Indian cuisine prepared in a strictly vegetarian kitchen.", hiA: "हाँ, हमारा इन-हाउस रेस्टोरेंट केवल शुद्ध शाकाहारी भोजन परोसता है जिसे पूर्ण रूप से शाकाहारी रसोई में ही तैयार किया जाता है।" },
   { q: "Do you have secure parking space for tourist buses?", hiQ: "क्या आपके पास पर्यटक बसों के लिए पार्किंग की जगह है?", a: "Yes, we provide spacious free secure parking inside our premises that easily accommodates multiple cars and large pilgrim buses.", hiA: "हाँ, हम अपने परिसर के अंदर विशाल निःशुल्क सुरक्षित पार्किंग प्रदान करते हैं जिसमें कारें और बड़ी तीर्थयात्री बसें आसानी से पार्क हो सकती हैं।" },
   { q: "What are the standard Check-in and Check-out timings?", hiQ: "चेक-इन और चेक-आउट का समय क्या है?", a: "Our standard check-in is at 12:00 PM and check-out is at 11:00 AM. Flexible timings are available for group bookings upon prior request.", hiA: "चेक-इन का समय दोपहर 12:00 बजे और चेक-out का समय सुबह 11:00 बजे है। पूर्व अनुरोध पर ग्रुप बुकिंग के लिए समय अनुकूल किया जा सकता है।" },
@@ -196,7 +196,7 @@ export const faqs = [
 ];
 
 export const pageContent = {
-  about: { title: "A Welcoming Sanctuary Near Manona Dham", hi: "मनोना धाम के पास एक स्वागत योग्य विश्राम स्थल", eyebrow: "About", image: images.palace, intro: "Raj Garden Hotel in Aonla brings together comfortable rooms, a pure-veg restaurant, and grand event spaces under one roof.", points: ["Comfortable AC rooms and suites", "Just 2.5 km from Manona Dham", "100% Pure Veg restaurant dining", "Grand wedding lawns & banquet services", "Free secure parking for buses and cars"] },
+  about: { title: "A Welcoming Sanctuary Near Manona Dham", hi: "मनोना धाम के पास एक स्वागत योग्य विश्राम स्थल", eyebrow: "About", image: images.palace, intro: "Hotel B Anand in Aonla brings together comfortable rooms, a pure-veg restaurant, and grand event spaces under one roof.", points: ["Comfortable AC rooms and suites", "Just 2.5 km from Manona Dham", "100% Pure Veg restaurant dining", "Grand wedding lawns & banquet services", "Free secure parking for buses and cars"] },
   "rooms-suites": { title: "Comfortable Air-Conditioned Rooms", hi: "आरामदायक एसी कमरे", eyebrow: "Stay", image: images.suite, intro: "Choose from our neat, clean, and comfortable air-conditioned rooms designed to rest your spirit after a long journey.", points: ["Premium cozy bedding", "Reliable air cooling", "Attached modern bathrooms", "24/7 attentive room service", "High speed Wi-Fi access"] },
   "luxury-villas": { title: "Private Luxury Stays", hi: "निजी लक्ज़री प्रवास", eyebrow: "Villas", image: images.pool, intro: "Private accommodations with customized services perfect for hosting families or special guests.", points: ["Poolside stays", "Hosted dining menus", "Private service protocols", "Spacious layouts"] },
   dining: { title: "Pure Vegetarian Indian Dining", hi: "शुद्ध शाकाहारी भारतीय भोजन", eyebrow: "Dining", image: images.dining, intro: "Enjoy delicious, home-style pure-vegetarian Indian dishes prepared fresh daily inside our calm garden restaurant.", points: ["100% Pure Veg kitchen", "Traditional North Indian Thali", "Attentive family-style service", "Special pilgrim group menu setup", "24-hour in-room dining option"] },
@@ -206,21 +206,21 @@ export const pageContent = {
   meetings: { title: "Meetings & Social Gatherings", hi: "बैठकें और सामाजिक समारोह", eyebrow: "Meetings", image: images.meeting, intro: "Convenient event hosting with seating setups, support staff, and delicious dining options.", points: ["Configurable seating setup", "Attentive service personnel", "Custom lunch/dinner buffets", "Secure on-site parking"] },
   offers: { title: "Pilgrim & Event Packages", hi: "तीर्थयात्री और इवेंट पैकेज", eyebrow: "Offers", image: images.pool, intro: "Special custom offers designed to make your pilgrim stay or family celebration comfortable and budget-friendly.", points: ["Pilgrim special rates", "Early check-in on availability", "Customized wedding lawn deals", "Dedicated coordinator support"] },
   experiences: { title: "Pilgrim & Local Experiences", hi: "तीर्थयात्री और स्थानीय अनुभव", eyebrow: "Experiences", image: images.attraction, intro: "We host pilgrim groups, wedding guests, and travelers with deep local hospitality and care.", points: ["Easy auto/car access to temple", "Secured night parking for buses", "Helpful 24/7 front desk", "Clean and fresh dining options"] },
-  "nearby-attractions": { title: "Nearby Sacred Sites & Stations", hi: "नज़दीकी पवित्र स्थल और स्टेशन", eyebrow: "Location", image: images.attraction, intro: "Raj Garden is located conveniently on Aonla-Shahabad Road, offering quick transit to local destinations.", points: ["Khatu Shyam Ji Manona Dham", "Aonla Railway Station", "Bareilly District Junction", "Local markets & transport hubs"] },
+  "nearby-attractions": { title: "Nearby Sacred Sites & Stations", hi: "नज़दीकी पवित्र स्थल और स्टेशन", eyebrow: "Location", image: images.attraction, intro: "Hotel B Anand is located conveniently on Aonla-Shahabad Road, offering quick transit to local destinations.", points: ["Khatu Shyam Ji Manona Dham", "Aonla Railway Station", "Bareilly District Junction", "Local markets & transport hubs"] },
   faq: { title: "Frequently Asked Questions", hi: "अक्सर पूछे जाने वाले प्रश्न", eyebrow: "FAQ", image: images.lobby, intro: "Quick answers to help you plan your rooms, event lawn booking, and pilgrim stays.", points: ["Manona Dham Proximity", "Pure Veg Dining", "Bus & Car Parking", "Wedding Lawn Bookings"] },
   contact: { title: "Connect With Our Desk", hi: "हमारे डेस्क से संपर्क करें", eyebrow: "Contact", image: images.hero, intro: "Feel free to reach out for room bookings, wedding lawn pricing, or pilgrim group arrangements.", points: [hotel.phone, hotel.email, hotel.address, "WhatsApp Enquiry ready", "Google Maps directions"] },
   "book-now": { title: "Book Your Room", hi: "अपना कमरा बुक करें", eyebrow: "Reservations", image: images.suite, intro: "Submit your details or connect via WhatsApp to reserve your stay instantly.", points: ["Direct WhatsApp Booking", "Clear pricing structure", "Quick availability response", "Pilgrim group assistance"] }
 };
 
 export const policyPages = {
-  privacy: { title: "Privacy Policy", hi: "गोपनीयता नीति", intro: "Raj Garden Hotel values and protects our guest information.", sections: ["We collect details necessary for booking validations and legal registration.", "Personal preferences are used solely to improve our hospitality services.", "Contact details are kept secure and never shared with third parties."] },
+  privacy: { title: "Privacy Policy", hi: "गोपनीयता नीति", intro: "Hotel B Anand values and protects our guest information.", sections: ["We collect details necessary for booking validations and legal registration.", "Personal preferences are used solely to improve our hospitality services.", "Contact details are kept secure and never shared with third parties."] },
   terms: { title: "Terms & Conditions", hi: "नियम और शर्तें", intro: "Standard conditions to make bookings, event packages, and stays comfortable.", sections: ["Room availability is confirmed on a first-come, first-served basis.", "Events and banquet bookings require a prior advance deposit.", "Devotees and guests must submit valid government IDs during check-in."] }
 };
 
 export const amenityIcons = [Wifi, BedDouble, Bath, Car, CalendarDays, ChefHat, Leaf, Dumbbell, ShieldCheck, MessageCircle, Gem, Camera, Award, Star, Martini, MapPin];
 
 export const blogPosts = [
-  { title: "How to Plan a Wedding Near Manona Dham Aonla", slug: "plan-wedding-aonla", tag: "Wedding", image: images.wedding, text: "A practical guide to lawn setups, guest rooms, catering, and evening reception lights at Raj Garden." },
+  { title: "How to Plan a Wedding Near Manona Dham Aonla", slug: "plan-wedding-aonla", tag: "Wedding", image: images.wedding, text: "A practical guide to lawn setups, guest rooms, catering, and evening reception lights at Hotel B Anand." },
   { title: "Pilgrim Guide: Staying Near Khatu Shyam Ji Manona Dham", slug: "pilgrim-stay-guide", tag: "Travel", image: images.attraction, text: "Everything you need to know about darshan timings, transport, parking, and finding premium rooms." },
   { title: "The Joy of Shuddh Shakahari Dining on a Spiritual Journey", slug: "pure-veg-dining-benefits", tag: "Dining", image: images.dining, text: "Why freshly prepared pure-vegetarian meals are the perfect complement after visiting sacred shrines." }
 ];

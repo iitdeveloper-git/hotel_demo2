@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <main>
       <section className="relative min-h-screen overflow-hidden bg-charcoal text-white">
-        <Image src={images.hero} alt="Raj Garden Hotel premium entrance near Manona Dham" fill priority sizes="100vw" className="object-cover opacity-82" />
+        <Image src={images.hero} alt="Hotel B Anand premium entrance near Manona Dham" fill priority sizes="100vw" className="object-cover opacity-82" />
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/55 via-charcoal/18 to-charcoal/78" />
         <div className="luxury-container relative flex min-h-screen flex-col justify-center items-center text-center pb-10 pt-32">
           <Reveal>
@@ -55,7 +55,7 @@ export default function HomePage() {
             {experiences.map((item, index) => (
               <Reveal key={item.title} delay={index * 0.04}>
                 <article className="group relative min-h-96 overflow-hidden rounded-[28px] bg-brown p-7 text-white shadow-soft">
-                  <Image src={item.image} alt={`${item.title} at Raj Garden Hotel`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover opacity-55 transition duration-700 group-hover:scale-110" />
+                  <Image src={item.image} alt={`${item.title} at Hotel B Anand`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover opacity-55 transition duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-green via-green/25 to-transparent" />
                   <div className="relative flex h-full min-h-80 flex-col justify-end">
                     <item.icon className="mb-5 h-8 w-8 text-gold" />
@@ -101,7 +101,7 @@ export default function HomePage() {
         <div className="luxury-container">
           <SectionHeader eyebrow="Wedding Destination" title="Celebrate marriages and grand events" hindi="बैंक्वेट हॉल" align="center" text="From mehendi and haldi to pheras, reception, and guest stays, our team organizes every celebration beautifully." />
           <div className="relative min-h-[560px] overflow-hidden rounded-[32px] bg-green p-8 text-white shadow-soft">
-            <Image src="/wedding-3.jpg" alt="Wedding decoration at Raj Garden Hotel" fill sizes="100vw" className="object-cover opacity-75" />
+            <Image src="/wedding-3.jpg" alt="Wedding decoration at Hotel B Anand" fill sizes="100vw" className="object-cover opacity-75" />
             <div className="absolute inset-0 bg-gradient-to-r from-green/80 via-green/40 to-transparent" />
             <div className="relative flex min-h-[500px] max-w-2xl flex-col justify-end">
               <Gem className="mb-5 h-10 w-10 text-gold animate-pulse" />
@@ -144,7 +144,7 @@ export default function HomePage() {
               <h2 className="mt-4 heading-lg text-green">Trusted for comfort, service, and pilgrim convenience</h2>
               <p className="mt-2 font-devanagari text-lg text-gold">विशेषताएं</p>
               <p className="mt-4 max-w-none text-base leading-7 text-charcoal font-semibold">
-                Raj Garden Hotel is appreciated by guests for clean AC rooms, pure vegetarian dining, event spaces, and proximity to Manona Dham.
+                Hotel B Anand is appreciated by guests for clean AC rooms, pure vegetarian dining, event spaces, and proximity to Manona Dham.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function HomePage() {
           <div className="mb-8 grid grid-cols-12 gap-4">
             <div className="col-span-12">
               <p className="eyebrow">Gallery</p>
-              <h2 className="mt-4 heading-lg text-green">A glimpse of Raj Garden</h2>
+              <h2 className="mt-4 heading-lg text-green">A glimpse of Hotel B Anand</h2>
               <p className="mt-2 font-devanagari text-lg text-gold">गैलरी</p>
               <p className="mt-4 max-w-none text-base leading-7 text-charcoal font-semibold">
                 View our comfortable rooms, restaurant, and beautifully decorated event settings.
@@ -301,7 +301,7 @@ export default function HomePage() {
             <div className="absolute left-[35%] top-[58%] h-24 w-24 rounded-full border border-gold/25" />
             <div className="absolute left-[24%] top-[36%] flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-bold text-green shadow-soft">
               <MapPin className="h-4 w-4 text-gold" />
-              Raj Garden Hotel
+              Hotel B Anand
             </div>
             <div className="absolute right-[18%] top-[48%] flex items-center gap-2 rounded-full bg-gold px-4 py-2 text-sm font-bold text-white shadow-glow">
               <Navigation className="h-4 w-4" />
@@ -312,7 +312,7 @@ export default function HomePage() {
             <div className="absolute left-[42%] top-[66%] h-4 w-4 rounded-full bg-gold shadow-glow" />
             <div className="absolute bottom-8 left-8 max-w-sm">
               <p className="eyebrow">Location Map</p>
-              <h3 className="mt-3 font-heading text-4xl">Raj Garden Hotel in Aonla</h3>
+              <h3 className="mt-3 font-heading text-4xl">Hotel B Anand in Aonla</h3>
               <p className="mt-3 text-sm leading-6 text-white font-medium">Conveniently located on Aonla-Shahabad Road, Bareilly. Closest premium stay to Shree Khatu Shyam Ji Manona Dham.</p>
             </div>
           </div>

@@ -100,7 +100,7 @@ function RoomsSuitesShowcase() {
   return (
     <main>
       <section className="relative min-h-[340px] overflow-hidden bg-green pt-32 text-white">
-        <Image src={images.suite} alt="Rooms and Suites at Raj Garden Hotel" fill priority sizes="100vw" className="object-cover opacity-45" />
+        <Image src={images.suite} alt="Rooms and Suites at Hotel B Anand" fill priority sizes="100vw" className="object-cover opacity-45" />
         <div className="absolute inset-0 bg-charcoal/45" />
         <div className="luxury-container relative grid min-h-[220px] place-items-center text-center">
           <div>
@@ -117,7 +117,7 @@ function RoomsSuitesShowcase() {
             <p className="eyebrow">Rooms & Suites</p>
             <h2 className="mt-3 font-heading text-4xl text-charcoal md:text-6xl">Comfortable Rooms & Suites</h2>
             <p className="mx-auto mt-4 max-w-3xl text-base leading-7 text-charcoal/65">
-              Choose elegant rooms and spacious suites with refined interiors, comfortable bedding, modern amenities, and warm Raj Garden Hotel service.
+              Choose elegant rooms and spacious suites with refined interiors, comfortable bedding, modern amenities, and warm Hotel B Anand service.
             </p>
           </div>
 
@@ -125,7 +125,7 @@ function RoomsSuitesShowcase() {
             {roomShowcase.map((room, index) => (
               <article key={room.title} className={`group overflow-hidden rounded-[18px] border bg-white shadow-soft ${index === 0 ? "border-green/45" : "border-green/10"}`}>
                 <div className="relative h-60 overflow-hidden">
-                  <Image src={room.image} alt={`${room.title} at Raj Garden Hotel`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-105" />
+                  <Image src={room.image} alt={`${room.title} at Hotel B Anand`} fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover transition duration-700 group-hover:scale-105" />
                   {index === 0 ? (
                     <span className="absolute inset-0 grid place-items-center">
                       <span className="grid h-12 w-12 place-items-center rounded-full bg-white/90 text-green shadow-soft">
