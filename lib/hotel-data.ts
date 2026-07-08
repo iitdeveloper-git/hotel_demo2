@@ -50,7 +50,7 @@ export const navItems = [
 ];
 
 export const images = {
-  hero: "/wedding-hero.jpg",
+  hero: "/hotel-b-anand-facade.png",
   palace: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=2000&q=85",
   lobby: "/lobby-reception-royal.png",
   suite: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=85",
@@ -60,8 +60,8 @@ export const images = {
   dining: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=85",
   thali: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&w=1800&q=85",
   spa: "/hotel-1.jpg",
-  wedding: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=2000&q=85",
-  banquet: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=2000&q=85",
+  wedding: "/room-service-bed.jpg",
+  banquet: "/luxury-lobby-chandelier.png",
   meeting: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=2000&q=85",
   bar: "https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1800&q=85",
   chef: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1800&q=85",
@@ -157,16 +157,16 @@ export const offers = [
 
 export const gallery = [
   "/new-gallery-1.jpg",
-  "/wedding-1.jpg",
+  "/luxury-bathroom-suite.jpg",
   "/hotel-3.png",
   "/hotel-2.jpg",
-  "/wedding-2.jpg",
+  "/marble-rainshower.jpg",
   "/new-gallery-2.jpg",
   "/hotel-1.jpg",
-  "/wedding-3.jpg",
+  "/indoor-pool-garden.jpg",
   "/new-gallery-3.jpg",
   "/new-gallery-4.jpg",
-  "/wedding-4.png",
+  "/luxury-lap-pool.jpg",
   "/new-gallery-5.png",
   "/catering-1.jpg",
   "/catering-2.jpg",
