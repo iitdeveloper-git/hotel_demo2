@@ -170,7 +170,10 @@ export const gallery = [
   "/outdoor-wooden-temple.jpg",
   "/basement-parking.png",
   "/outdoor-valet-parking.jpg",
-  "/hotel-luxury-gym.png"
+  "/hotel-luxury-gym.png",
+  "/outdoor-table-tennis.jpg",
+  "/kids-game-room.png",
+  "/cozy-home-theater.png"
 ];
 
 export const galleryCategories = [
