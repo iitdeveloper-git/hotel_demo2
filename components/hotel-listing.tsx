@@ -3,7 +3,7 @@ import { Bath, BedDouble, Car, Check, SlidersHorizontal, Star, Users, Wifi } fro
 import { rooms } from "@/lib/hotel-data";
 
 const filters = {
-  Destinations: ["Greater Noida", "Pari Chowk", "Knowledge Park", "Noida Expressway"],
+  Destinations: ["Aonla", "Bareilly", "Manona Dham"],
   Rating: ["5 Star", "4 Star", "Guest Choice"],
   Budget: ["₹15,000 - ₹25,000", "₹25,000 - ₹50,000", "Above ₹50,000"],
   Amenities: ["Breakfast", "Free Parking", "Airport Pickup", "Spa Access"]
@@ -75,7 +75,7 @@ export function HotelListingSection() {
                 </div>
                 <div className="p-5">
                   <h3 className="font-heading text-3xl text-green">{room.title}</h3>
-                  <p className="text-sm font-semibold text-gold">Hotel B Anand, Greater Noida</p>
+                  <p className="text-sm font-semibold text-gold">Hotel B Anand, Aonla, Bareilly</p>
                   <p className="mt-3 text-sm leading-6 text-charcoal/65">{room.details}</p>
                   <p className="mt-4 text-sm font-bold text-charcoal">Amenities</p>
                   <div className="mt-2 flex flex-wrap gap-2">

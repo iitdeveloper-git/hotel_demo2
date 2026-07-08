@@ -20,7 +20,7 @@ export function Schema() {
       },
       geo: { "@type": "GeoCoordinates", latitude: hotel.coordinates.lat, longitude: hotel.coordinates.lng },
       priceRange: "₹₹",
-      amenityFeature: ["Pure Vegetarian Restaurant", "Wedding Lawn", "Banquet Hall", "Air Conditioning", "Free Parking"].map((name) => ({ "@type": "LocationFeatureSpecification", name, value: true })),
+      amenityFeature: ["Pure Vegetarian Restaurant", "Premium Suites", "Luxury Rooms", "Air Conditioning", "Free Parking"].map((name) => ({ "@type": "LocationFeatureSpecification", name, value: true })),
       containsPlace: rooms.map((room) => ({ "@type": "HotelRoom", name: room.title, bed: "Double bed", occupancy: "2 adults" }))
     },
     {

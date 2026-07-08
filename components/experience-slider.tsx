@@ -7,18 +7,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const slides = [
   {
-    image: "/wedding-1.jpg",
-    title: "Grand Palace Entry",
-    hi: "शाही प्रवेश द्वार",
-    text: "Devotees and guests are welcomed through our magnificent royal entrance gate.",
-    hiText: "हमारे भव्य शाही प्रवेश द्वार से अतिथियों और श्रद्धालुओं का स्वागत किया जाता है।"
+    image: "/luxury-lobby-chandelier.png",
+    title: "Royal Chandelier Lobby",
+    hi: "शाही झूमर लॉबी",
+    text: "Experience the grand welcome under sparkling chandeliers in our premium reception lobby.",
+    hiText: "हमारे प्रीमियम रिसेप्शन लॉबी में चमकते झूमरों के नीचे भव्य स्वागत का अनुभव करें।"
   },
   {
     image: "/hotel-1.jpg",
-    title: "Luxury Bridal Suite",
-    hi: "लक्जरी दुल्हन सुइट",
-    text: "Attentive accommodations customized for wedding brides and premium guests.",
-    hiText: "दुल्हन और विशिष्ट अतिथियों के लिए तैयार किए गए लक्जरी वातानुकूलित कमरे।"
+    title: "Spa & Wellness Room",
+    hi: "स्पा और वेलनेस रूम",
+    text: "Rejuvenate your senses with our premium spa therapies and relaxing massage rituals.",
+    hiText: "हमारी प्रीमियम स्पा थेरेपी और आरामदायक मालिश के साथ अपनी इंद्रियों को फिर से जीवंत करें।"
   },
   {
     image: "/catering-3.jpg",
@@ -28,39 +28,53 @@ const slides = [
     hiText: "पारंपरिक उत्तर भारतीय शुद्ध शाकाहारी भोजन और शाही थाली का आनंद लें।"
   },
   {
-    image: "/wedding-3.jpg",
-    title: "Rose Floral Night Stage",
-    hi: "गुलाब मंडप और मंच",
-    text: "Beautiful red rose hearts floral decorations for memorable wedding pheras.",
-    hiText: "विवाह के फेरों और स्मृतियों को यादगार बनाने के लिए गुलाब के फूलों का सुंदर मंच।"
+    image: "/front-desk-warm.png",
+    title: "Warm Front Desk",
+    hi: "24/7 स्वागत कक्ष",
+    text: "Our concierge team is available 24/7 to assist you with temple timings, room service, and travel bookings.",
+    hiText: "हमारा स्वागत कक्ष मंदिर के दर्शन समय, रूम सर्विस और यात्रा बुकिंग के लिए 24/7 उपलब्ध है।"
   },
   {
-    image: "/hotel-2.jpg",
-    title: "Attentive Room Stays",
-    hi: "आरामदायक एसी रूम",
-    text: "Clean, fresh, air-conditioned rooms designed to rest your spirit.",
-    hiText: "लंबी यात्रा के बाद आराम करने के लिए तैयार किए गए स्वच्छ और ताज़ा एसी कमरे।"
+    image: "/room-service-bed.jpg",
+    title: "Attentive Room Prep",
+    hi: "24/7 कमरा तैयारी",
+    text: "Dedicated room service preparing your space daily with crisp linens and comfort.",
+    hiText: "प्रतिदिन ताजे बिस्तरों और पूर्ण आराम के साथ आपके कमरे को तैयार करती समर्पित सेवा।"
   },
   {
-    image: "/catering-4.jpg",
-    title: "Pure Vegetarian Buffet",
-    hi: "शुद्ध शाकाहारी केटरिंग",
-    text: "Freshly prepared vegetarian catering for grand gatherings and pilgrim groups.",
-    hiText: "सामूहिक धार्मिक आयोजनों और विवाह भोज के लिए ताज़ा तैयार शाकाहारी केटरिंग।"
+    image: "/dining-celebration.jpg",
+    title: "Dining Celebrations",
+    hi: "डाइनिंग उत्सव",
+    text: "Celebrate special family reunions and corporate milestones with curated feasts.",
+    hiText: "सुव्यवस्थित दावतों के साथ विशेष पारिवारिक पुनर्मिलन और कॉर्पोरेट मील के पत्थर मनाएं।"
   },
   {
-    image: "/new-gallery-2.jpg",
-    title: "Premium Bed Decor",
-    hi: "विशेष कमरा सजावट",
-    text: "Curated room interiors with fresh sheets for a comfortable peaceful night.",
-    hiText: "शांत और आरामदायक रात बिताने के लिए विशेष रूप से सजाए गए सुंदर बेड।"
+    image: "/cityview-dining.png",
+    title: "Skyline Fine Dining",
+    hi: "आकाशगंगा डाइनिंग",
+    text: "Indulge in gourmet pure-vegetarian dishes overlooking the majestic city lights.",
+    hiText: "शहर की सुंदर रोशनी को देखते हुए लजीज शुद्ध शाकाहारी व्यंजनों का आनंद लें।"
   },
   {
-    image: "/wedding-2.jpg",
-    title: "Grand Marriage Lawn",
-    hi: "विशाल विवाह लॉन",
-    text: "Celebrate sangeet, mehendi, and reception under beautifully lit open skies.",
-    hiText: "खुले आसमान और रोशनी के बीच मेहंदी, संगीत और शादी के भव्य रिसेप्शन का आयोजन।"
+    image: "/modern-hotel-lounge.png",
+    title: "Luxury Library Lounge",
+    hi: "लक्ज़री लाइब्रेरी लाउंज",
+    text: "Relax, read, or catch up in our cozy, modern library lounge designed for premium guests.",
+    hiText: "हमारे आरामदायक और आधुनिक लाइब्रेरी लाउंज में आराम करें, पढ़ें या समय बिताएं।"
+  },
+  {
+    image: "/lounge-sunset.jpg",
+    title: "Rooftop Sunset Lounge",
+    hi: "रूफटॉप सनसेट लाउंज",
+    text: "Experience twilight with panoramic views and ambient luxury seating.",
+    hiText: "सुंदर दृश्यों और आरामदायक लक्जरी सीटों के साथ शाम की चाय और नाश्ते का आनंद लें।"
+  },
+  {
+    image: "/luxury-bar.png",
+    title: "The Royal Executive Bar",
+    hi: "शाही एक्जीक्यूटिव बार",
+    text: "Sip custom concoctions and premium mocktails in our luxury industrial bar lounge.",
+    hiText: "हमारे लक्जरी इंडस्ट्रियल बार लाउंज में कस्टम ड्रिंक्स और प्रीमियम मॉकटेल्स का आनंद लें।"
   }
 ];
 

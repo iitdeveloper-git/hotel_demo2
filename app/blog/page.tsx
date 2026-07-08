@@ -5,7 +5,7 @@ import { blogPosts } from "@/lib/hotel-data";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Hotel B Anand luxury hospitality blog covering weddings, hotel stays, wellness breaks, dining, and Greater Noida travel."
+  description: "Hotel B Anand luxury hospitality blog covering hotel stays, luxury suites, pure veg dining, pilgrim guide, and Aonla Bareilly travel."
 };
 
 export default function BlogPage() {

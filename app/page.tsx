@@ -21,8 +21,8 @@ export default function HomePage() {
           <Reveal>
             <p className="eyebrow mb-5">Hotel B Anand · Aonla, Bareilly</p>
             <h1 className="heading-xl mx-auto max-w-6xl">Hotel B Anand</h1>
-            <p className="mt-3 font-devanagari text-3xl text-champagne">शाही उत्सव और बेमिसाल मेहमाननवाज़ी</p>
-            <p className="mt-7 mx-auto max-w-2xl text-lg leading-8 text-white font-semibold">Celebrate your special moments in royal style. Grand wedding lawns, premium AC rooms, and exquisite catering services.</p>
+            <p className="mt-3 font-devanagari text-3xl text-champagne">लक्ज़री स्टे और बेमिसाल मेहमाननवाज़ी</p>
+            <p className="mt-7 mx-auto max-w-2xl text-lg leading-8 text-white font-semibold">Experience premium hospitality and modern luxury. Elegant air-conditioned rooms, a top-rated pure-veg restaurant, and exceptional guest services near Manona Dham.</p>
           </Reveal>
           <div className="mt-14 w-full max-w-4xl">
             <BookingCard />
@@ -50,7 +50,7 @@ export default function HomePage() {
 
       <section className="section-y bg-green text-white">
         <div className="luxury-container">
-          <SectionHeader eyebrow="Signature Experiences" title="Experiences shown exactly as guests use them" hindi="विशेष अनुभव" text="Dining rooms, spa areas, wedding setups, banquet halls, meeting rooms, and local travel support are presented with clear, guest-friendly details." />
+          <SectionHeader eyebrow="Signature Experiences" title="Experiences shown exactly as guests use them" hindi="विशेष अनुभव" text="Dining rooms, spa areas, luxury suite stays, relaxing lounges, meeting rooms, and local travel support are presented with clear, guest-friendly details." />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {experiences.map((item, index) => (
               <Reveal key={item.title} delay={index * 0.04}>
@@ -97,24 +97,24 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section id="banquet" className="section-y bg-white">
+      <section id="amenities" className="section-y bg-white">
         <div className="luxury-container">
-          <SectionHeader eyebrow="Wedding Destination" title="Celebrate marriages and grand events" hindi="बैंक्वेट हॉल" align="center" text="From mehendi and haldi to pheras, reception, and guest stays, our team organizes every celebration beautifully." />
-          <div className="relative min-h-[560px] overflow-hidden rounded-[32px] bg-green p-8 text-white shadow-soft">
-            <Image src="/wedding-3.jpg" alt="Wedding decoration at Hotel B Anand" fill sizes="100vw" className="object-cover opacity-75" />
-            <div className="absolute inset-0 bg-gradient-to-r from-green/80 via-green/40 to-transparent" />
-            <div className="relative flex min-h-[500px] max-w-2xl flex-col justify-end">
+          <SectionHeader eyebrow="Hotel Exterior & Luxury" title="Your premium retreat near Manona Dham" hindi="लक्ज़री होटल और भव्य प्रवेश" align="center" text="Hotel B Anand offers a grand multi-story luxury facade, beautifully lit suites, safe bus parking, and royal hospitality." />
+          <div className="relative min-h-[620px] overflow-hidden rounded-[32px] bg-green p-8 text-white shadow-soft">
+            <Image src="/hotel-b-anand-facade.png" alt="Hotel B Anand premium building facade" fill sizes="100vw" className="object-cover opacity-75" />
+            <div className="absolute inset-0 bg-gradient-to-r from-green/85 via-green/45 to-transparent" />
+            <div className="relative flex min-h-[560px] max-w-2xl flex-col justify-end">
               <Gem className="mb-5 h-10 w-10 text-gold animate-pulse" />
-              <h3 className="font-heading text-4xl sm:text-5xl leading-tight">Beautiful venues for mehendi, sangeet, pheras, reception, and pilgrim group gatherings.</h3>
-              <p className="mt-3 font-devanagari text-xl text-champagne font-bold">मेहंदी, संगीत, फेरे, रिसेप्शन और सामूहिक धार्मिक समारोहों के लिए सबसे सुंदर और विशाल लॉन।</p>
+              <h3 className="font-heading text-4xl sm:text-5xl leading-tight">A state-of-the-art modern luxury hotel facade designed for premium comfort.</h3>
+              <p className="mt-3 font-devanagari text-xl text-champagne font-bold">आधुनिक वास्तुकला और शाही प्रवेश द्वार से युक्त मनोना धाम के पास सर्वश्रेष्ठ लक्ज़री होटल।</p>
               <div className="mt-8">
                 <a 
-                  href={`https://wa.me/${hotel.whatsapp}?text=${encodeURIComponent("🙏 नमस्ते Hotel B Anand! मुझे आपके होटल के वेडिंग लॉन/बैंक्वेट बुकिंग के बारे में जानकारी चाहिए।")}`}
+                  href={`https://wa.me/${hotel.whatsapp}?text=${encodeURIComponent("🙏 नमस्ते Hotel B Anand! मुझे आपके होटल में रूम बुकिंग/लक्ज़री स्टे के बारे में जानकारी चाहिए।")}`}
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex rounded-full bg-gold px-6 py-3.5 text-sm font-bold text-white transition hover:bg-white hover:text-green shadow-glow hover:scale-105 duration-300"
                 >
-                  Book Wedding Lawn / विवाह लॉन बुक करें 💍
+                  Book Your Room / कमरा बुक करें 🏨
                 </a>
               </div>
             </div>
@@ -144,7 +144,7 @@ export default function HomePage() {
               <h2 className="mt-4 heading-lg text-green">Trusted for comfort, service, and pilgrim convenience</h2>
               <p className="mt-2 font-devanagari text-lg text-gold">विशेषताएं</p>
               <p className="mt-4 max-w-none text-base leading-7 text-charcoal font-semibold">
-                Hotel B Anand is appreciated by guests for clean AC rooms, pure vegetarian dining, event spaces, and proximity to Manona Dham.
+                Hotel B Anand is appreciated by guests for clean AC rooms, pure vegetarian dining, luxury amenities, and proximity to Manona Dham.
               </p>
             </div>
           </div>
@@ -172,10 +172,10 @@ export default function HomePage() {
             <div className="p-3">
               <Quote className="mb-4 h-8 w-8 text-gold" />
               <p className="text-xl font-semibold leading-9 text-white">
-                "Watch our virtual tour! Experience pristine AC rooms, warm reception services, and grand lawn decorations."
+                "Watch our virtual tour! Experience pristine AC rooms, warm reception services, and modern luxury suites."
               </p>
               <p className="mt-2 font-devanagari text-lg text-champagne font-bold leading-8">
-                "हमारे होटल का वर्चुअल वीडियो टूर देखें! साफ़-सुथरे कमरे, स्वागत कक्ष की सेवाएं और भव्य विवाह सजावट का साक्षात अनुभव करें।"
+                "हमारे होटल का वर्चुअल वीडियो टूर देखें! साफ़-सुथरे कमरे, स्वागत कक्ष की सेवाएं और आधुनिक लक्ज़री सुइट्स का साक्षात अनुभव करें।"
               </p>
             </div>
           </div>
@@ -347,7 +347,7 @@ export default function HomePage() {
               <h2 className="mt-4 heading-lg text-green">Hotel stories, travel tips, and celebration guides</h2>
               <p className="mt-2 font-devanagari text-lg text-gold">ब्लॉग</p>
               <p className="mt-4 max-w-none text-base leading-7 text-charcoal font-semibold">
-                Read helpful ideas for weddings, wellness stays, dining plans, Greater Noida visits, and comfortable hotel experiences.
+                Read helpful ideas for hotel stays, wellness breaks, dining plans, pilgrim guide, and comfortable lodging experiences near Manona Dham.
               </p>
             </div>
           </div>

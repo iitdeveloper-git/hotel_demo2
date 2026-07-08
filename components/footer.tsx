@@ -10,7 +10,7 @@ export function Footer() {
           <div>
             <p className="font-heading text-4xl">Hotel B Anand</p>
             <p className="mt-1 font-devanagari text-lg text-champagne">होटल बी आनंद</p>
-            <p className="mt-4 max-w-md text-sm leading-7 text-white/70">Modern luxury rooms, celebrations, dining, and warm hospitality in Greater Noida.</p>
+            <p className="mt-4 max-w-md text-sm leading-7 text-white/70">Modern luxury rooms, celebrations, dining, and warm hospitality in Aonla, Bareilly.</p>
             <div className="mt-5 flex gap-3">
               {[Instagram, Facebook, Linkedin].map((Icon, index) => (
                 <a key={index} className="icon-button border-white/20 bg-white/10 text-white" href="#" aria-label="Social profile">

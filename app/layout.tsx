@@ -15,15 +15,15 @@ const devanagari = Noto_Sans_Devanagari({ subsets: ["devanagari"], weight: ["400
 export const metadata: Metadata = {
   metadataBase: new URL(hotel.baseUrl),
   title: {
-    default: "Hotel B Anand | Luxury Hotel in Greater Noida",
+    default: "Hotel B Anand | Luxury Hotel in Aonla, Bareilly",
     template: "%s | Hotel B Anand"
   },
-  description: "Hotel B Anand is a modern luxury hotel in Greater Noida with rooms, suites, dining, weddings, banquets, meetings, and warm hospitality.",
-  keywords: ["Hotel B Anand", "luxury hotel in Greater Noida", "hotel in Greater Noida", "wedding hotel Greater Noida", "banquet hall Greater Noida"],
+  description: "Hotel B Anand is a modern luxury hotel in Aonla, Bareilly, near Khatu Shyam Ji Manona Dham. We offer premium AC rooms, luxury suites, pure-veg dining, and warm hospitality.",
+  keywords: ["Hotel B Anand", "luxury hotel in Aonla", "hotel in Aonla", "hotel near Manona Dham", "luxury hotel Bareilly"],
   alternates: { canonical: "/" },
   openGraph: {
     title: "Hotel B Anand | Royal Indian Luxury",
-    description: "Experience royal Indian luxury with modern hospitality, suites, villas, dining, spa, weddings, and banquets.",
+    description: "Experience premium Indian hospitality with modern amenities, luxury suites, pure-veg dining, and peaceful stays near Manona Dham.",
     url: hotel.baseUrl,
     siteName: "Hotel B Anand",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Hotel B Anand luxury hotel" }],
