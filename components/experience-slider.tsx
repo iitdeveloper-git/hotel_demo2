@@ -75,6 +75,34 @@ const slides = [
     hi: "शाही एक्जीक्यूटिव बार",
     text: "Sip custom concoctions and premium mocktails in our luxury industrial bar lounge.",
     hiText: "हमारे लक्जरी इंडस्ट्रियल बार लाउंज में कस्टम ड्रिंक्स और प्रीमियम मॉकटेल्स का आनंद लें।"
+  },
+  {
+    image: "/luxury-bathroom-suite.jpg",
+    title: "Executive Ensuite Bathroom",
+    hi: "एक्जीक्यूटिव संलग्न बाथरूम",
+    text: "Premium wood-finished ensuite bathrooms featuring ambient lighting and floating sinks.",
+    hiText: "शांत लाइट और फ्लोटिंग सिंक के साथ हमारे शानदार लकड़ी की बनावट वाले बाथरूम का आनंद लें।"
+  },
+  {
+    image: "/marble-rainshower.jpg",
+    title: "Marble Rain Shower",
+    hi: "संगमरमर रेन शावर",
+    text: "Indulge in our luxurious marble-tiled bathrooms equipped with premium rain shower setups.",
+    hiText: "लक्ज़री रेन शावर और शानदार संगमरमर की दीवारों वाले हमारे प्रीमियम बाथरूम में स्नान का आनंद लें।"
+  },
+  {
+    image: "/indoor-pool-garden.jpg",
+    title: "Garden View Indoor Pool",
+    hi: "बगीचे के दृश्य वाला इनडोर पूल",
+    text: "Relax in our climate-controlled indoor pool overlooking beautiful lush green gardens.",
+    hiText: "सुंदर हरे-भरे बगीचों के दृश्यों वाले हमारे वातानुकूलित इनडोर पूल में तैरने का आनंद लें।"
+  },
+  {
+    image: "/luxury-lap-pool.jpg",
+    title: "Luxury Lap Pool",
+    hi: "लक्ज़री लैप पूल",
+    text: "Enjoy a tranquil night swim in our masterfully designed lap pool with ambient illumination.",
+    hiText: "शांत रोशनी से जगमगाते हमारे सुंदर और आधुनिक इनडोर लैप पूल में तैरने का आनंद लें।"
   }
 ];
 
