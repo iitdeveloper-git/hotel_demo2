@@ -156,6 +156,8 @@ export const offers = [
 ];
 
 export const gallery = [
+  "/hotel-b-anand-facade.png",
+  "/hotel-1.jpg",
   "/room-service-bed.jpg",
   "/luxury-bathroom-suite.jpg",
   "/marble-rainshower.jpg",
@@ -163,7 +165,12 @@ export const gallery = [
   "/luxury-lap-pool.jpg",
   "/luxury-bar.png",
   "/modern-hotel-lounge.png",
-  "/lounge-sunset.jpg"
+  "/lounge-sunset.jpg",
+  "/hotel-temple-shrine.png",
+  "/outdoor-wooden-temple.jpg",
+  "/basement-parking.png",
+  "/outdoor-valet-parking.jpg",
+  "/hotel-luxury-gym.png"
 ];
 
 export const galleryCategories = [
