@@ -50,7 +50,7 @@ export default function HomePage() {
 
       <section className="section-y bg-green text-white">
         <div className="luxury-container">
-          <SectionHeader eyebrow="Signature Experiences" title="Experiences shown exactly as guests use them" hindi="विशेष अनुभव" text="Dining rooms, spa areas, luxury suite stays, relaxing lounges, meeting rooms, and local travel support are presented with clear, guest-friendly details." />
+          <SectionHeader align="center" eyebrow="Signature Experiences" title="Experiences shown exactly as guests use them" hindi="विशेष अनुभव" text="Dining rooms, spa areas, luxury suite stays, relaxing lounges, meeting rooms, and local travel support are presented with clear, guest-friendly details." />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {experiences.map((item, index) => (
               <Reveal key={item.title} delay={index * 0.04}>
