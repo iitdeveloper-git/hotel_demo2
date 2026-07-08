@@ -136,6 +136,23 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section id="video-tour" className="section-y bg-white">
+        <div className="luxury-container">
+          <SectionHeader align="center" eyebrow="Video Tour" title="Cinematic Walkthrough of Hotel B Anand" hindi="सिनेमैटिक वीडियो टूर" text="Take a virtual motion walkthrough of our premium luxury spaces, elegant suites, and serene lounge settings." />
+          <div className="flex justify-center mt-10">
+            <div className="relative w-full max-w-sm aspect-[9/16] overflow-hidden rounded-[32px] border-4 border-gold shadow-glow bg-charcoal">
+              <iframe 
+                src="https://assets.pinterest.com/ext/embed.html?id=295830269298114117" 
+                className="absolute inset-0 w-full h-full border-0" 
+                scrolling="no" 
+                allowFullScreen
+                title="Hotel B Anand Cinematic Video Tour"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-y bg-champagne/45">
         <div className="luxury-container">
           <div className="mb-8 grid grid-cols-12 gap-4 text-center">
