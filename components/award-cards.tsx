@@ -13,11 +13,11 @@ const awardDetails = [
     hiDescription: "मुख्य आंवला-शाहाबाद रोड पर श्री खाटू श्याम जी मनोना धाम से मात्र 2.5 किमी की दूरी पर स्थित। हमारा होटल श्रद्धालुओं के लिए सुरक्षित पार्किंग, दैनिक दर्शन तक त्वरित पहुंच और आरामदायक विश्राम की सर्वोत्तम व्यवस्था प्रदान करता है।"
   },
   {
-    title: "Top Rated Banquet Hall in Aonla",
-    hi: "आंवला का सर्वश्रेष्ठ बैंक्वेट और विवाह लॉन",
+    title: "Premium Luxury Rooms & Suites",
+    hi: "प्रीमियम लक्ज़री रूम्स और सुइट्स",
     icon: Award,
-    description: "Our expansive green lawns and premium decorated banquet venues are top-rated in Aonla, Bareilly. We offer comprehensive services for marriages, rings, receptions, and birthday events with beautiful lighting, stages, sound systems, and guest hosting.",
-    hiDescription: "हमारे विस्तृत हरे-भरे विवाह लॉन और सजाए गए बैंक्वेट आंवला क्षेत्र में सर्वश्रेष्ठ स्थान रखते हैं। हम शादियों, अंगूठियों, रिसेप्शन और जन्मदिन के कार्यक्रमों के लिए फूलों की सजावट, प्रकाश व्यवस्था, साउंड सिस्टम और मेहमानों के रुकने की उत्तम व्यवस्था प्रदान करते हैं।"
+    description: "Designed for premium comfort, our rooms and suites feature elegant modern interiors, state-of-the-art air conditioning, high-speed Wi-Fi, and 24/7 dedicated room service. It is tailored to make your lodging experience near Manona Dham absolutely luxurious.",
+    hiDescription: "प्रीमियम आराम के लिए डिज़ाइन किए गए, हमारे कमरों और सुइट्स में आधुनिक इंटीरियर, एयर कंडीशनिंग, हाई-स्पीड वाई-फाई और 24/7 समर्पित रूम सर्विस की सुविधा है। यह मनोना धाम के पास आपके प्रवास के अनुभव को पूरी तरह से आरामदायक बनाता है।"
   },
   {
     title: "100% Pure Vegetarian In-House Kitchen",
