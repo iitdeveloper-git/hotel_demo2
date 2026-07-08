@@ -148,6 +148,9 @@ export default function HomePage() {
                 allowFullScreen
                 title="Hotel B Anand Cinematic Video Tour"
               />
+              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 bg-charcoal/85 backdrop-blur-sm px-4 py-2 rounded-full border border-gold/40 shadow-soft pointer-events-none whitespace-nowrap">
+                <span className="text-xs uppercase tracking-widest text-champagne font-bold">www.iitdeveloper.com</span>
+              </div>
             </div>
           </div>
         </div>
